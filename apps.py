@@ -1,6 +1,5 @@
 from flask import Flask, redirect, url_for, request, render_template, session, escape,  Response
 from datetime import timedelta
-from waitress import serve
 import os
 
 app = Flask(__name__,static_folder='static',static_url_path='/static')
