@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="Guannan He, Homepage" /> 
-    <meta name="description" content="He Guannan's homepage" />
-    <title>Guannan He</title>
+    <meta name="keywords" content="Guannan He, Research" /> 
+    <meta name="description" content="Guannan He's research" />
+    <title>Research</title>
+    <link rel="apple-touch-icon" sizes="180x180" href=".favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href=".favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href=".favicon_io/favicon-16x16.png">
+    <link rel="manifest" href=".favicon_io/site.webmanifest">
     <style>
         html, body{ 
             height: 100%; 
@@ -141,7 +145,9 @@
 <body>
     <div id="container"> 
         <div id="header" class="header">
-            <img src="./static/img/pku.png" style="position: relative;left: 8%;top:15%;height: 60%;display: inline;padding-right: 8%;">
+            <a href="https://english.pku.edu.cn/">
+                <img src="./static/img/pku.png" style="position: relative;left: 8%;top:15%;height: 60%;display: inline;padding-right: 8%;">
+            </a>
             <div class="header-item" >
                 <li><a class="header-underline" href="index.html">Homepage</a></li>
                 <li><a class="header-underline" href="research_en.html" style="border-bottom: 3px solid white;padding-bottom: 11px;">Research</a> </li>
@@ -173,11 +179,17 @@
             </div>
             <div id="detailed-info" class="detailed-info">
                 <div class="info-container">
-                    <h3><a href="research1_zh.html">研究领域一</a></h3>
+                    <h3><a href="research1_eh.html">Research: Coupled Electricity-Hydrogen-carbon Energy System Optimization</a></h3>
                     <hr>
-                    <p>纯文本描述纯文本描述纯文本描述纯文本描述纯文本描述纯文本描述纯文本描述纯文本描述纯文本描述纯文本描述</p>
-                    <img src="/static/img/research/example.png" style="position: relative; width: 100%;">
-                    <p>对插入图片的说明：最好是选择一个PPT页面比例的画布，背景设为透明色或白色（可以使用PPT二次处理一下做过的图，然后在导出里面选择导出为图片即可）。把宽度较小的原图放在画布的中央，可以避免排版上的不美观问题。</p>
+                    <p>DOLPHYN is a highly-configurable, open source Julia package aimed to design and explore future energy system in corporation with new energy sytechnologies like electrolysis and carbon capture.
+                    <p>DOLPHYN model evaluates investments and operations across the bulk supply chain for electricity, H2 and CO2, including production, storage, transmission, conditioning (compression/liquefaction in the case of H2 as well as CO2) and demand. The model determines the least-cost mix of electricity and H2 production, storage, and transmission infrastructures to meet power and H2 demands subject to a variety of operational and policy constraints, considering carbon emissions at the same time.</p>
+                    <p>The developed model can incorporate a wide range of power and H2 technology options, including VRE generation, carbon capture and storage (CCS) applied to power and H2 generation, and truck (gaseous, liquid) and pipelines for H2 transportation. The power systems and H2 supply chain are coupled primarily through electrolysis and power generation technologies fueled by H2, as well as electricity consumption in H2 compression/liquefaction. The key operational constraints of the model include:</p>
+                    <li>supply-demand balance for H2 and electricity at each zone;</li>
+                    <li>inventory balance constraints for stationary storage technologies;</li>
+                    <li>balance constraints related to trucks at a given location (any of the zones and routes, arriving, departing or in transit) and for different states (empty and full), and</li>
+                    <li>linearized unit commitment for conventional thermal power generation technologies and natural gas based H2 production technologies.</li>
+                    <p>DOLPHYN features a modular and transparent code structure developed in Julia + JuMP. The model is designed to be highly flexible and configurable for use in a variety of applications from academic research and technology evaluation to public policy and regulatory analysis and resource planning.</p>
+                    <img src="./static/img/research/carbon_supply_chain_en.jpg" style="position: relative; width: 100%;">
                 </div>
             </div>
         </div>
