@@ -1,141 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="Guannan He, Homepage" />
-    <meta name="description" content="He Guannan's homepage" />
-    <title>Guannan He</title>
-    <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href=".favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href=".favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href=".favicon_io/favicon-16x16.png">
-    <link rel="manifest" href=".favicon_io/site.webmanifest">
-    <link href="./css/base_en.css" rel="stylesheet" type="text/css"/>
-    <link href="./css/brief_intro_en.css" rel="stylesheet" type="text/css"/>
-    <style>
-        /*========== specific css ==========*/
-        .push{
-            height: 20px; 
-            clear:both;             
-        } 
-        /*==========其他div效果==========*/  
-        #detailed-info{
-            float: left;
-            width: 65%;
-            margin-left: 3%;
-            margin-top: 140px;
-            margin-bottom: 3%;
-            font-family: 'Helvetica', Times, serif;
-        }
-        .info-container{
-            padding-left: 20px;
-            padding-top: 5px;
-            padding-bottom: 10px;
-            padding-right: 20px;
-            margin-bottom: 10px;
-            box-shadow: 0 0 5px lightgray;
-        }
-        .info-container li{
-            padding-bottom: 7px;
-        }
-    </style>
-</head>
-<body>
-    <div id="container">
-        <div id="header" class="header">
-            <a href="https://english.pku.edu.cn/">
-                <img src="./static/img/pku.png" style="position: relative;left: 8%;top:15%;height: 60%;display: inline;padding-right: 8%;">
-            </a>
-            <div class="header-item" >
-                <li><a class="header-underline" href="index.html" style="border-bottom: 3px solid white;padding-bottom: 11px;">Homepage</a></li>
-                <li><a class="header-underline" href="research_en.html">Research</a> </li>
-                <li><a class="header-underline" href="project_en.html">Fundings</a> </li>
-                <li><a class="header-underline" href="publication_en.html">Publication</a> </li>
-                <li><a class="header-underline" href="activity_en.html">Activity</a> </li>
-                <li><a class="header-underline" href="group_en.html">Group</a> </li>
-                <li><a class="header-underline" href="news_en.html">News</a> </li>
-                <li><span class="circle"><a href="index_zh.html">中</a></span></li>
-            </div>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="keywords" content="Guannan He,Research Group,Peking University,Optimization,Data Science,Control,Policy Analysis,Energy and Transportation Systems,Hydrogen,Battery,"/>
+    <meta name="description" content="" />
+    <meta name="referrer" content="same-origin"/>
+    <link rel="shortcut icon" href="/ec2-web/assets/favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/ec2-web/assets/favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/ec2-web/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/ec2-web/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/ec2-web/assets/favicon/site.webmanifest">
+    <meta name="theme-color" content="#e60012"/>
+    <title>Homepage - Guannan He Research Group</title>
+    <!-- jquery -->
+    <script src="https://code.bdstatic.com/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
+    <!-- //jquery -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/ec2-web/assets/css/main.css?v=20230222" />
+    <script src="https://code.bdstatic.com/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- //bootstrap -->
+    <!-- other -->
+    <script src="/ec2-web/assets/js/main.js?v=20230222"></script>
+    <!-- //other -->
+  </head>
+  <body lang="en">
+    <header class="site-header navbar navbar-static-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.pku.edu.cn/"><img src="/ec2-web/assets/images/pku.png"></a>
         </div>
-        <div id="page" class="clearfix">
-            <div id="brief-intro" class="brief-intro">
-                <div id="Personal-img" class="personal-img">
-                    <img src="./static/img/personal-img.jpg" alt="Sorry, the picture got lost." style="position:relative;width:55%;left: 20%;border-radius: 50%;">
+        <nav class="site-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="site-navbar-item site-navbar-item-homepage active"><a class="nav-link" href="/ec2-web/"><span class="site-navbar-text">Homepage</span></a></li>
+            <li class="site-navbar-item site-navbar-item-research"><a class="nav-link" href="/ec2-web/research/"><span class="site-navbar-text">Research</span></a></li>
+            <li class="site-navbar-item site-navbar-item-fundings"><a class="nav-link" href="/ec2-web/fundings/"><span class="site-navbar-text">Fundings</span></a></li>
+            <li class="site-navbar-item site-navbar-item-publication"><a class="nav-link" href="/ec2-web/publication/"><span class="site-navbar-text">Publication</span></a></li>
+            <li class="site-navbar-item site-navbar-item-activity"><a class="nav-link" href="/ec2-web/activity/"><span class="site-navbar-text">Activity</span></a></li>
+            <li class="site-navbar-item site-navbar-item-group"><a class="nav-link" href="/ec2-web/group/"><span class="site-navbar-text">Group</span></a></li>
+            <li class="site-navbar-item site-navbar-item-news"><a class="nav-link" href="/ec2-web/news/"><span class="site-navbar-text">News</span></a></li>
+            <li class="site-navbar-item site-navbar-item-search"><a class="nav-link" href="/ec2-web/search/"><span class="site-navbar-text">
+              <span class="icon icon-search" data-href="/ec2-web/search/"></span>
+              <span class="icon icon-language-zh" data-href="/ec2-web/index_zh.html"></span>
+            </span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="site-content container">
+      <div class="row">
+        <div class="site-content-main col-sm-12">
+          <article>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="site-personal-heading">
+                  <p><img src="/ec2-web/assets/images/personal-img.jpg" alt="" /></p>
+                  <h2 id="guannan-he">Guannan He</h2>
+                  <p>Assistant Professor</p>
                 </div>
-                <div id="personal-contact" class="personal-contact">
-                    <b style="position:relative;left:21%;font-size: 150%;">Guannan He</b>
-                    <p style="font-size: 105%;">Assistant Professor</p>
-                    <p style="font-size: 100%;">Tel: 010-82524866</p>
-                    <p style="font-size: 100%;">Email: gnhe at pku dot edu dot cn</p>
-                    <p style="font-size: 100%;">Office: Room 1004, Wangkezhen Building, 5 Yiheyuan Road, Haidian District, Beijing</p>
-                    <p><a href="https://scholar.google.com/citations?user=0tu93ZsAAAAJ&hl=en"><img src="./static/img/google-scholar.jpg" style="position:relative;height: 15px;">Google Scholar </a></p>
-                    <p><a href="https://github.com/gn-he"><img src="./static/img/github.png" style="position:relative;height: 15px;">Github</a>  </p>
-                    <p><a href="https://orcid.org/0000-0002-5055-076X"><img src="./static/img/orcid.png" style="position:relative;height: 15px;">ORCID </a></p>
-                    <p><a href="https://www.linkedin.com/pub/guannan-he/70/b09/a1"><img src="./static/img/linkedin.png" style="position:relative;height: 15px;">LinkedIn</a></p>
-                    <p><a href="https://www.researchgate.net/profile/Guannan_He"><img src="./static/img/research-gate.png" style="position:relative;height: 15px;">Research Gate</a></p>
+                <div class="site-personal-info">
+                  <ul>
+                    <li><span class="icon icon-telephone"></span> Tel: 010-82524866</li>
+                    <li><span class="icon icon-office"></span> Office: Room 1004, Wangkezhen Building, 5 Yiheyuan Road, Haidian District, Beijing</li>
+                    <li><span class="icon icon-mail"></span> Email: gnhe at pku dot edu dot cn</li>
+                    <li><span class="icon icon-google-scholar"></span> <a target="_blank" href="https://scholar.google.com/citations?user=0tu93ZsAAAAJ">Google Scholar</a></li>
+                    <li><span class="icon icon-github"></span> <a target="_blank" href="https://github.com/gn-he">GitHub</a></li>
+                    <li><span class="icon icon-orcid"></span> <a target="_blank" href="https://orcid.org/0000-0002-5055-076X">ORCID</a></li>
+                    <li><span class="icon icon-linkedin"></span> <a target="_blank" href="https://www.linkedin.com/pub/guannan-he/70/b09/a1">LinkedIn</a></li>
+                    <li><span class="icon icon-researchgate"></span> <a target="_blank" href="https://www.researchgate.net/profile/Guannan_He">ResearchGate</a></li>
+                  </ul>
                 </div>
+              </div>
+            <div class="col-md-8">
+                <h2 id="appointments">Appointments</h2>
+                <table class="homepage-table">
+              <tbody>
+                <tr>
+                  <td width="150" valign="top"><ul><li>2021/09-now</li></ul></td>
+                  <td width="180" valign="top">Assistant Professor</td>
+                  <td valign="top">Department of Industrial Engineering and Management, College of Engineering, Peking University</td>
+                </tr>
+                <tr>
+                  <td valign="top"><ul><li>2019/09-2021/08</li></ul></td>
+                  <td valign="top">Postdoctoral Associate</td>
+                  <td valign="top">Massachusetts Institute of Technology</td>
+                </tr>
+              </tbody>
+            </table>
+                <h2 id="education">Education</h2>
+                <table class="homepage-table">
+              <tbody>
+                <tr>
+                  <td width="150" valign="top"><ul><li>2016-2019</li></ul></td>
+                  <td width="180">PhD</td>
+                  <td valign="top">Engineering and Public Policy, Carnegie Mellon University</td>
+                </tr>
+                <tr>
+                  <td valign="top"><ul><li>2014-2016</li></ul></td>
+                  <td valign="top">Master</td>
+                  <td valign="top">Electrical Engineering, Tsinghua University</td>
+                </tr>
+                <tr>
+                  <td valign="top"><ul><li>2010-2014</li></ul></td>
+                  <td valign="top">Bachelor of Science</td>
+                  <td valign="top">Electrical Engineering, Economics (2nd degree), Tsinghua University</td>
+                </tr>
+              </tbody>
+            </table>
+                <h2 id="research-area">Research Area</h2>
+                <ul>
+                  <li>Methods: Optimization, Data Science, Control, Policy Analysis</li>
+                  <li>Applications: Energy and Transportation Systems, Hydrogen, Battery</li>
+                </ul>
+                <h2 id="teaching">Teaching</h2>
+                <ul>
+                  <li>Undergraduate: Introduction to Machine Learning</li>
+                  <li>Graduate: Carbon Neutrality and Energy Internet</li>
+                </ul>
+              </div>
             </div>
-            <div id="detailed-info" class="detailed-info">
-                <div class="info-container">
-                    <h3>Appointments</h3>
-                    <hr>
-                    <table>
-                    <tr>
-                    <td width="150" valign="top"><li>2021/09-now </li></td>
-                    <td width="180" valign="top">Assistant Professor </td>
-                    <td valign="top">Department of Industrial Engineering and Management, College of Engineering, Peking University </td>
-                    </tr>
-                    <tr>
-                    <td valign="top"><li>2019/09-2021/08 </li></td>
-                    <td valign="top">Postdoctoral Associate </td>
-                    <td valign="top">Massachusetts Institute of Technology </td>
-                    </tr>
-                    </table>
-                </div>
-                <div class="info-container">
-                    <h3>Education</h3>
-                    <hr>
-                    <table>
-                    <tr>
-                    <td width="150" valign="top"><li>2016-2019 </li></td>
-                    <td width="180">PhD </td>
-                    <td valign="top">Engineering and Public Policy, Carnegie Mellon University </td>
-                    </tr>
-                    <tr>
-                    <td valign="top"><li>2014-2016 </li></td>
-                    <td valign="top">Master </td>
-                    <td valign="top">Electrical Engineering, Tsinghua University </td>
-                    </tr>
-                    <tr>
-                    <td valign="top"> <li>2010-2014 </li></td>
-                    <td valign="top">Bachelor of Science </td>
-                    <td valign="top">Electrical Engineering, Economics (2nd degree), Tsinghua University </td>
-                    </tr>
-                    </table>
-                </div>
-                <div class="info-container">
-                    <h3>Research Area</h3>
-                    <hr>
-                    <li>Methods: Optimization, Data Science, Control, Policy Analysis</li>
-                    <li>Applications: Energy and Transportation Systems, Hydrogen, Battery</li>
-                </div>
-                <div class="info-container">
-                    <h3>Teaching</h3>
-                    <hr>
-                    <li>Undergraduate: Introduction to Machine Learning</li>
-                    <li>Graduate: Carbon Neutrality and Energy Internet</li>
-                </div>
-            </div>
+          </article>
         </div>
-
-        <div class="push"><!-- not put anything here --></div>
+      </div>
     </div>
-    <div id="footer">
-        <p style="padding-top: 20px;">Made by Guannan He</p>
-    </div>
-</body>
+    <!-- footer -->
+    <footer id="site-footer" class="site-footer">
+      <div class="container">
+        <p>Made by Guannan He</p>
+      </div>
+    </footer>
+    <!-- //footer -->
+    <!-- https://www.guannanhe.com/ec2-web/ -->
+  </body>
 </html>
