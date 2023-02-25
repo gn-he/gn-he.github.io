@@ -1,221 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="何冠楠,个人主页" /> 
-    <meta name="description" content="何冠楠的个人主页" />
-    <title>何冠楠</title>
-    <link rel="apple-touch-icon" sizes="180x180" href=".favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href=".favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href=".favicon_io/favicon-16x16.png">
-    <link rel="manifest" href=".favicon_io/site.webmanifest">
-    <style>
-        html, body{ 
-            height: 100%; 
-            margin:0; 
-            padding:0; 
-        } 
-        #container { 
-            min-height: 100%; 
-            height: auto !important; 
-            height: 100%; 
-            margin: 0 auto -60px;/*margin-bottom的负值等于footer高度*/ 
-        } 
-        .push{
-            height: 20px; 
-            clear:both;             
-        } 
-        #footer { 
-            height: 60px; 
-            clear:both; 
-        } 
-        /*==========其他div效果==========*/ 
-        .header a{
-			text-decoration:none;color:rgb(230, 230,230);
-		}
-        .header a:hover{text-decoration:none;color: rgb(230, 230,230);}
-        .header{
-            position: fixed;
-            left: 0%; 
-            top: 0%;
-            width:100%;
-            height: 90px;
-            background-color: #94070a;
-            z-index: 99999;
-            white-space:nowrap;
-            overflow:hidden;
-        }
-        .header-item{
-            left: 7%;
-            top:0%;
-            position: relative;
-            display: inline;
-        }
-        .header-item li{
-            height: 70%;
-            margin: 1%;
-            position: relative;
-            display: inline-block;
-            font-size: 130%;
-            font-family: 宋体;
-            font-weight: bolder;
-            text-align: center;
-        }
-        .header-underline{
-			position:relative;
-		}
-		.header-underline::after{
-			content:'';
-			display:block;
-			/*开始时候下划线的宽度为100%*/
-			width:100%;
-			height:2px;
-			position:inherit;
-			bottom:-10px;
-			background:white;
-			transition:all 0.3s ease-in-out;
-			/*通过transform的缩放scale来让初始时x轴为0*/
-			transform: scale3d(0,1,1);
-			/*将坐标原点移到元素的中间，以原点为中心进行缩放*/
-			transform-origin:50% 0;
-		}
-		.header-underline:hover::after{
-			/*鼠标经过时还原到正常比例*/
-			transform:scale3d(1,1,1);
-		}
-        .circle{
-        border: 1.5px solid white;
-        color: white;
-        border-radius: 100%;
-        position: relative;
-        z-index: 2;
-        display: inline-block;
-        width: 28px;
-        height: 28px;
-        margin-left:10px;
-        line-height: 25px;
-        text-align: center;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        font-size: 16px;
-        }
-        .brief-intro a{
-			text-decoration:none;color:rgb(130, 130,130);
-		}
-        .brief-intro a:hover{text-decoration:none;color: black;}
-        #brief-intro{
-            float: left;
-            width: 20%;
-            margin-left: 5%;
-            margin-top: 140px;
-            font-family: 宋体;
-        }
-        .personal-img{
-            position: relative;
-            width: 100%;
-            height: 30%;
-        }
-        #detailed-info{
-            float: left;
-            width: 60%;
-            margin-left: 5%;
-            margin-top: 140px;
-            margin-bottom: 3%;
-            font-family: 宋体;
-        }
-        .info-container{
-            padding-left: 20px;
-            padding-top: 5px;
-            padding-bottom: 10px;
-            padding-right: 20px;
-            margin-bottom: 10px;
-            box-shadow: 0 0 5px lightgray;
-        }
-        .info-container li{
-            padding-bottom: 7px;
-        }
-        #footer {
-            background-color:rgb(230, 230, 230);
-            font-family: 'Times New Roman', Times, serif;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <div id="container"> 
-        <div id="header" class="header">
-            <a href="https://www.pku.edu.cn/">
-                <img src="./static/img/pku.png" style="position: relative;left: 8%;top:15%;height: 60%;display: inline;padding-right: 8%;">
-            </a>
-            <div class="header-item" >
-                <li><a class="header-underline" href="index_zh.html" style="border-bottom: 3px solid white;padding-bottom: 11px;">个人介绍</a></li>
-                <li><a class="header-underline" href="research_zh.html">研究方向</a> </li>
-                <li><a class="header-underline" href="project_zh.html">科研项目</a> </li>
-                <li><a class="header-underline" href="publication_zh.html">论文著作</a> </li>
-                <li><a class="header-underline" href="activity_zh.html">学术活动</a> </li>
-                <li><a class="header-underline" href="group_zh.html">学生成员</a> </li>
-                <li><a class="header-underline" href="news_zh.html">新 闻</a> </li>
-                <li><span class="circle"><a href="index.html">EN</a></span></li>
-            </div>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="keywords" content="何冠楠,课题组,北京大学,优化,数据科学,政策分析,能源与交通系统,电池,氢能,"/>
+    <meta name="description" content="" />
+    <meta name="referrer" content="same-origin"/>
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <meta name="theme-color" content="#e60012"/>
+    <title>主页 - 何冠楠课题组</title>
+    <!-- jquery -->
+    <script src="https://code.bdstatic.com/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
+    <!-- //jquery -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/assets/css/main.css?v=20230222" />
+    <script src="https://code.bdstatic.com/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- //bootstrap -->
+    <!-- other -->
+    <script src="/assets/js/main.js?v=20230222"></script>
+    <!-- //other -->
+  </head>
+  <body lang="zh">
+    <header class="site-header navbar navbar-static-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.pku.edu.cn/"><img src="/assets/images/pku.png"></a>
         </div>
-        <div id="page" class="clearfix"> 
-            <div id="brief-intro" class="brief-intro">
-                <div id="Personal-img" class="personal-img">
-                    <img src="./static/img/personal-img.jpg" alt="抱歉，图片走丢了" style="position:relative;width:55%;left: 20%;border-radius: 50%;">
+        <nav class="site-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="site-navbar-item site-navbar-item-homepage active"><a class="nav-link" href="/index_zh.html"><span class="site-navbar-text">个人介绍</span></a></li>
+            <li class="site-navbar-item site-navbar-item-research"><a class="nav-link" href="/research/index_zh.html"><span class="site-navbar-text">研究方向</span></a></li>
+            <li class="site-navbar-item site-navbar-item-fundings"><a class="nav-link" href="/fundings/index_zh.html"><span class="site-navbar-text">科研项目</span></a></li>
+            <li class="site-navbar-item site-navbar-item-publication"><a class="nav-link" href="/publication/index_zh.html"><span class="site-navbar-text">论文著作</span></a></li>
+            <li class="site-navbar-item site-navbar-item-activity"><a class="nav-link" href="/activity/index_zh.html"><span class="site-navbar-text">学术活动</span></a></li>
+            <li class="site-navbar-item site-navbar-item-group"><a class="nav-link" href="/group/index_zh.html"><span class="site-navbar-text">学生成员</span></a></li>
+            <li class="site-navbar-item site-navbar-item-news"><a class="nav-link" href="/news/index_zh.html"><span class="site-navbar-text">新闻</span></a></li>
+            <li class="site-navbar-item site-navbar-item-search"><a class="nav-link" href="/search/index_zh.html"><span class="site-navbar-text">
+              <span class="icon icon-search" data-href="/search/index_zh.html"></span>
+              <span class="icon icon-language-en" data-href="/"></span>
+            </span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="site-content container">
+      <div class="row">
+        <div class="site-content-main col-sm-12">
+          <article>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="site-personal-heading">
+                  <p><img src="/assets/images/personal-img.jpg" alt="" /></p>
+                  <h2 id="section">何冠楠</h2>
+                  <p>助理教授，研究员，博士生导师</p>
                 </div>
-                <div id="personal-contact" class="personal-contact">
-                    <p style="position:relative;left:30%;font-size: 110%;">何冠楠</p>
-                    <p style="font-size: 105%;">助理教授，研究员，博士生导师</p>
-                    <p style="font-size: 100%;">联系电话：010-82524866</p>
-                    <p style="font-size: 100%;">电子邮箱：gnhe@pku.edu.cn</p>
-                    <p style="font-size: 100%;">办公室：北京市海淀区海淀路52号，王克桢楼1004室</p>
-                    <p><a href="https://scholar.google.com/citations?user=0tu93ZsAAAAJ&hl=en"><img src="./static/img/google-scholar.jpg" alt="抱歉，图片走丢了" style="position:relative;height: 15px;">Google Scholar </a></p>
-                    <p><a href="https://github.com/gn-he"><img src="./static/img/github.png" alt="抱歉，图片走丢了" style="position:relative;height: 15px;">Github主页 </a>  </p>
-                    <p><a href="https://orcid.org/0000-0002-5055-076X"><img src="./static/img/orcid.png" alt="抱歉，图片走丢了" style="position:relative;height: 15px;">ORCID </a></p>
-                    <p><a href="https://www.linkedin.com/pub/guannan-he/70/b09/a1"><img src="./static/img/linkedin.png" alt="抱歉，图片走丢了" style="position:relative;height: 15px;">LinkedIn</a></p>
-                    <p><a href="https://www.researchgate.net/profile/Guannan_He"><img src="./static/img/research-gate.png" alt="抱歉，图片走丢了" style="position:relative;height: 15px;">Research Gate</a></p>
+                <div class="site-personal-info">
+                  <ul>
+                    <li><span class="icon icon-telephone"></span> 联系电话：010-82524866</li>
+                    <li><span class="icon icon-office"></span> 办公室：北京市海淀区颐和园路5号王克桢楼1004室</li>
+                    <li><span class="icon icon-mail"></span> Email: gnhe at pku dot edu dot cn</li>
+                    <li><span class="icon icon-google-scholar"></span> <a target="_blank" href="https://scholar.google.com/citations?user=0tu93ZsAAAAJ">Google Scholar</a></li>
+                    <li><span class="icon icon-github"></span> <a target="_blank" href="https://github.com/gn-he">GitHub主页</a></li>
+                    <li><span class="icon icon-orcid"></span> <a target="_blank" href="https://orcid.org/0000-0002-5055-076X">ORCID</a></li>
+                    <li><span class="icon icon-linkedin"></span> <a target="_blank" href="https://www.linkedin.com/pub/guannan-he/70/b09/a1">LinkedIn</a></li>
+                    <li><span class="icon icon-researchgate"></span> <a target="_blank" href="https://www.researchgate.net/profile/Guannan_He">ResearchGate</a></li>
+                  </ul>
                 </div>
+              </div>
+            <div class="col-md-8">
+                <h2 id="section-1">工作经历</h2>
+                <table class="homepage-table">
+              <tbody>
+                <tr>
+                  <td width="180" valign="top"><ul><li>2021/09-至今</li></ul></td>
+                  <td width="80" valign="top">助理教授</td>
+                  <td valign="top">北京大学工学院工业工程与管理系，北京大学大数据分析与应用技术国家工程实验室</td>
+                </tr>
+                <tr>
+                  <td valign="top"><ul><li>2019/09-2021/08</li></ul></td>
+                  <td valign="top">博士后</td>
+                  <td valign="top">麻省理工学院</td>
+                </tr>
+              </tbody>
+            </table>
+                <h2 id="section-2">教育经历</h2>
+                <table class="homepage-table">
+              <tbody>
+                <tr>
+                  <td width="180" valign="top"><ul><li>2016-2019</li></ul></td>
+                  <td width="80" valign="top">博士</td>
+                  <td valign="top">卡内基梅隆大学工程与公共政策系</td>
+                </tr>
+                <tr>
+                  <td valign="top"><ul><li>2014-2016</li></ul></td>
+                  <td valign="top">硕士</td>
+                  <td valign="top">清华大学电机工程与应用电子技术系</td>
+                </tr>
+                <tr>
+                  <td valign="top"><ul><li>2010-2014</li></ul></td>
+                  <td valign="top">学士</td>
+                  <td valign="top">清华大学电机工程与应用电子技术系, 清华大学经济管理学院(第二学位)</td>
+                </tr>
+              </tbody>
+            </table>
+                <h2 id="section-3">研究课题</h2>
+                <ul>
+                  <li>方法：优化，数据科学，政策分析</li>
+                  <li>应用：能源与交通系统，电池，氢能</li>
+                </ul>
+                <h2 id="section-4">招聘启事</h2>
+                <ul>
+                  <li>本课题组长期招聘博士后，从事数字低碳能源方向的工作</li>
+                  <li>详情请见<a href="/news/2023-01-01-recruitment_zh.html">招聘启事</a></li>
+                </ul>
+                <h2 id="section-5">教授课程</h2>
+                <ul>
+                  <li>本科生课程：机器学习基础、数理统计</li>
+                  <li>研究生课程：碳中和与能源互联网</li>
+                </ul>
+              </div>
             </div>
-            <div id="detailed-info" class="detailed-info">
-                <div class="info-container">
-                    <h3>工作经历</h3>
-                    <hr>
-                    <li>2021/09-至今 助理教授 北京大学工学院工业工程与管理系，北京大学大数据分析与应用技术国家工程实验室</li>
-                    <li>2019/09-2021/08  博士后助理 Massachusetts Institute of Technology Cambridge, US</li>
-                </div>
-                <div class="info-container">
-                    <h3>教育经历</h3>
-                    <hr>
-                    <li>2016-2019 卡内基梅隆大学工程與公共政策系，博士</li>
-                    <li>2014-2016 清华大学电机工程与应用电子技术系，硕士</li>
-                    <li>2010-2014 清华大学电机工程与应用电子技术系，学士</li>
-                    <li>2012-2014 清华大学经济管理学院，学士（第二学位）</li>
-                    <li>2013 香港大学，交换生</li>
-                </div>
-                <div class="info-container">
-                    <h3>研究课题</h3>
-                    <hr>
-                    <li>方法: 优化, 数据科学, 控制, 政策分析</li>
-                    <li>应用: 能源和交通系统, 氢能, 电池</li>
-                </div>            
-                <div class="info-container">
-                    <h3>教授课程</h3>
-                    <hr>
-                    <li>本科生课程: 机器学习基础</li>
-                    <li>研究生课程: 碳中和与能源互联网</li>
-                </div>
+          </article>
         </div>
-
-        <div class="push"><!-- not put anything here --></div>
-    </div> 
-    <div id="footer">
-        <p style="padding-top: 20px;">Made by Guannan He</p>
+      </div>
     </div>
-    </div>
-</body>
+    <!-- footer -->
+    <footer id="site-footer" class="site-footer">
+      <div class="container">
+        <p>Made by Guannan He</p>
+      </div>
+    </footer>
+    <!-- //footer -->
+    <!-- https://www.guannanhe.com/index_zh.html -->
+  </body>
 </html>

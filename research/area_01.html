@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="keywords" content="Guannan He,Research Group,Peking University,Optimization,Data Science,Control,Policy Analysis,Energy and Transportation Systems,Hydrogen,Battery,"/>
+    <meta name="description" content="DOLPHYN is a highly-configurable, open source Julia package aimed to design and explore future energy system in corporation with new energy sytechnologies like electrolysis and carbon capture (GitHub)." />
+    <meta name="referrer" content="same-origin"/>
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <meta name="theme-color" content="#e60012"/>
+    <title>Research: Coupled Electricity-Hydrogen-carbon Energy System Optimization - Guannan He Research Group</title>
+    <!-- jquery -->
+    <script src="https://code.bdstatic.com/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
+    <!-- //jquery -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/assets/css/main.css?v=20230222" />
+    <script src="https://code.bdstatic.com/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- //bootstrap -->
+    <!-- other -->
+    <script src="/assets/js/main.js?v=20230222"></script>
+    <!-- //other -->
+  </head>
+  <body lang="en">
+    <header class="site-header navbar navbar-static-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.pku.edu.cn/"><img src="/assets/images/pku.png"></a>
+        </div>
+        <nav class="site-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="site-navbar-item site-navbar-item-homepage"><a class="nav-link" href="/"><span class="site-navbar-text">Homepage</span></a></li>
+            <li class="site-navbar-item site-navbar-item-research active"><a class="nav-link" href="/research/"><span class="site-navbar-text">Research</span></a></li>
+            <li class="site-navbar-item site-navbar-item-fundings"><a class="nav-link" href="/fundings/"><span class="site-navbar-text">Fundings</span></a></li>
+            <li class="site-navbar-item site-navbar-item-publication"><a class="nav-link" href="/publication/"><span class="site-navbar-text">Publication</span></a></li>
+            <li class="site-navbar-item site-navbar-item-activity"><a class="nav-link" href="/activity/"><span class="site-navbar-text">Activity</span></a></li>
+            <li class="site-navbar-item site-navbar-item-group"><a class="nav-link" href="/group/"><span class="site-navbar-text">Group</span></a></li>
+            <li class="site-navbar-item site-navbar-item-news"><a class="nav-link" href="/news/"><span class="site-navbar-text">News</span></a></li>
+            <li class="site-navbar-item site-navbar-item-search"><a class="nav-link" href="/search/"><span class="site-navbar-text">
+              <span class="icon icon-search" data-href="/search/"></span>
+              <span class="icon icon-language-zh" data-href="/research/area_01_zh.html"></span>
+            </span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="site-content container">
+      <div class="row">
+        <div class="site-content-main col-sm-12">
+          <div class="site-heading">
+            <h1><a href="https://ieeexplore.ieee.org/abstract/document/9371425/">Research: Coupled Electricity-Hydrogen-carbon Energy System Optimization</a></h1>
+          </div>
+          <article>
+            <p>DOLPHYN is a highly-configurable, open source Julia package aimed to design and explore future energy system in corporation with new energy sytechnologies like electrolysis and carbon capture (<a target="_blank" href="https://github.com/macroenergy/DOLPHYN">GitHub</a>).</p>
+            <p>DOLPHYN model evaluates investments and operations across the bulk supply chain for electricity, H<sub>2</sub> and CO<sub>2</sub>, including production, storage, transmission, conditioning (compression/liquefaction in the case of H<sub>2</sub> as well as CO<sub>2</sub>) and demand. The model determines the least-cost mix of electricity and H<sub>2</sub> production, storage, and transmission infrastructures to meet power and H<sub>2</sub> demands subject to a variety of operational and policy constraints, considering carbon emissions at the same time.</p>
+            <p>The developed model can incorporate a wide range of power and H<sub>2</sub> technology options, including VRE generation, carbon capture and storage (CCS) applied to power and H<sub>2</sub> generation, and truck (gaseous, liquid) and pipelines for H<sub>2</sub> transportation. The power systems and H<sub>2</sub> supply chain are coupled primarily through electrolysis and power generation technologies fueled by H<sub>2</sub>, as well as electricity consumption in H<sub>2</sub> compression/liquefaction. The key operational constraints of the model include:</p>
+            <ul>
+              <li>supply-demand balance for H<sub>2</sub> and electricity at each zone;</li>
+              <li>inventory balance constraints for stationary storage technologies;</li>
+              <li>balance constraints related to trucks at a given location (any of the zones and routes, arriving, departing or in transit) and for different states (empty and full), and</li>
+              <li>linearized unit commitment for conventional thermal power generation technologies and natural gas based H<sub>2</sub> production technologies.</li>
+            </ul>
+            <p>DOLPHYN features a modular and transparent code structure developed in Julia + JuMP. The model is designed to be highly flexible and configurable for use in a variety of applications from academic research and technology evaluation to public policy and regulatory analysis and resource planning.</p>
+            <p><img src="/assets/images/research/carbon_supply_chain_en.png" alt="" /></p>
+            <ul>
+              <li><a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2021/ee/d1ee00627d">He, G., Mallapragada, D. S., Bose, A., Heuberger-Austin, C. F., &amp; Gençer, E. (2021). Sector coupling via hydrogen to lower the cost of energy system decarbonization. Energy &amp; Environmental Science, 14(9), 4635-4646.</a></li>
+              <li><a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9371425">He, G., Mallapragada, D. S., Bose, A., Heuberger, C. F., &amp; Gençer, E. (2021). Hydrogen supply chain planning with flexible transmission and storage scheduling. IEEE Transactions on Sustainable Energy, 12(3), 1730-1740.</a></li>
+            </ul>
+            <div class="nav-prevnext">
+              <div class="nav-prevnext-prev"><a class="text-primary" href="/research/area_02.html"><span class="icon icon-prev"></span>Battery Network Optimization</a></div>
+              <div class="nav-prevnext-parent"><a href="/research/">Research</a></div>
+              <div class="nav-prevnext-next"></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer id="site-footer" class="site-footer">
+      <div class="container">
+        <p>Made by Guannan He</p>
+      </div>
+    </footer>
+    <!-- //footer -->
+    <!-- https://www.guannanhe.com/research/area_01.html -->
+  </body>
+</html>

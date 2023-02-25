@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="keywords" content="何冠楠,课题组,北京大学,优化,数据科学,政策分析,能源与交通系统,电池,氢能,"/>
+    <meta name="description" content="DOLPHYN是一个开源、高度可扩展的能源系统优化模型（GitHub），可用于探索未来融合了氢能和碳捕集与利用技术的低碳能源系统形态与模式。" />
+    <meta name="referrer" content="same-origin"/>
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <meta name="theme-color" content="#e60012"/>
+    <title>研究：电碳氢耦合能源系统的优化建模 - 何冠楠课题组</title>
+    <!-- jquery -->
+    <script src="https://code.bdstatic.com/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
+    <!-- //jquery -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/assets/css/main.css?v=20230222" />
+    <script src="https://code.bdstatic.com/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- //bootstrap -->
+    <!-- other -->
+    <script src="/assets/js/main.js?v=20230222"></script>
+    <!-- //other -->
+  </head>
+  <body lang="zh">
+    <header class="site-header navbar navbar-static-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.pku.edu.cn/"><img src="/assets/images/pku.png"></a>
+        </div>
+        <nav class="site-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="site-navbar-item site-navbar-item-homepage"><a class="nav-link" href="/index_zh.html"><span class="site-navbar-text">个人介绍</span></a></li>
+            <li class="site-navbar-item site-navbar-item-research active"><a class="nav-link" href="/research/index_zh.html"><span class="site-navbar-text">研究方向</span></a></li>
+            <li class="site-navbar-item site-navbar-item-fundings"><a class="nav-link" href="/fundings/index_zh.html"><span class="site-navbar-text">科研项目</span></a></li>
+            <li class="site-navbar-item site-navbar-item-publication"><a class="nav-link" href="/publication/index_zh.html"><span class="site-navbar-text">论文著作</span></a></li>
+            <li class="site-navbar-item site-navbar-item-activity"><a class="nav-link" href="/activity/index_zh.html"><span class="site-navbar-text">学术活动</span></a></li>
+            <li class="site-navbar-item site-navbar-item-group"><a class="nav-link" href="/group/index_zh.html"><span class="site-navbar-text">学生成员</span></a></li>
+            <li class="site-navbar-item site-navbar-item-news"><a class="nav-link" href="/news/index_zh.html"><span class="site-navbar-text">新闻</span></a></li>
+            <li class="site-navbar-item site-navbar-item-search"><a class="nav-link" href="/search/index_zh.html"><span class="site-navbar-text">
+              <span class="icon icon-search" data-href="/search/index_zh.html"></span>
+              <span class="icon icon-language-en" data-href="/research/area_01.html"></span>
+            </span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="site-content container">
+      <div class="row">
+        <div class="site-content-main col-sm-12">
+          <div class="site-heading">
+            <h1><a href="https://ieeexplore.ieee.org/abstract/document/9371425/">研究：电碳氢耦合能源系统的优化建模</a></h1>
+          </div>
+          <article>
+            <p>DOLPHYN是一个开源、高度可扩展的能源系统优化模型（<a target="_blank" href="https://github.com/macroenergy/DOLPHYN">GitHub</a>），可用于探索未来融合了氢能和碳捕集与利用技术的低碳能源系统形态与模式。</p>
+            <p>DOLPHYN模型在电力、氢流以及碳流的全生命周期中评估投资以及运营成本，涵盖“源网荷储”四个主要环节（包括氢流和碳流的压缩液化）。在满足电力与氢能的需求的同时，模型可求解满足技术与政策约束的能源系统最优投资运行方案。</p>
+            <p>该模型可以对多种能源资源进行建模，包括可再生能源、火电等多种发电资源，电力和氢能生产过程中的碳捕集技术，氢流和碳流的不同运输方式，如卡车和管道。电力系统和氢能系统通过电解制氢与氢能发电相耦合，同时氢气压缩需要消耗电能。关键的运行约束包括：</p>
+            <ul>
+              <li>各地区的电力和氢能供需平衡；</li>
+              <li>储能装置的投资和运行规划；</li>
+              <li>各地区间电力和氢能的转运平衡以及相应的卡车运输规划；</li>
+              <li>火力发电和天然气制氢机组的机组组合约束。</li>
+            </ul>
+            <p>DOLPHYN模型以Julia语言和JuMP包为基础进行开发，以结构化和模块化的代码开发为特点。模型高度灵活可配置，适用于学术研究中各种能源技术和能源政策的评估分析与资源配置。</p>
+            <p><img src="/assets/images/research/carbon_supply_chain_zh.png" alt="" /></p>
+            <ul>
+              <li><a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2021/ee/d1ee00627d">He, G., Mallapragada, D. S., Bose, A., Heuberger-Austin, C. F., &amp; Gençer, E. (2021). Sector coupling via hydrogen to lower the cost of energy system decarbonization. Energy &amp; Environmental Science, 14(9), 4635-4646.</a></li>
+              <li><a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9371425">He, G., Mallapragada, D. S., Bose, A., Heuberger, C. F., &amp; Gençer, E. (2021). Hydrogen supply chain planning with flexible transmission and storage scheduling. IEEE Transactions on Sustainable Energy, 12(3), 1730-1740.</a></li>
+            </ul>
+            <div class="nav-prevnext">
+              <div class="nav-prevnext-prev"><a class="text-primary" href="/research/area_02_zh.html"><span class="icon icon-prev"></span>电池网络优化</a></div>
+              <div class="nav-prevnext-parent"><a href="/research/index_zh.html">研究方向</a></div>
+              <div class="nav-prevnext-next"></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer id="site-footer" class="site-footer">
+      <div class="container">
+        <p>Made by Guannan He</p>
+      </div>
+    </footer>
+    <!-- //footer -->
+    <!-- https://www.guannanhe.com/research/area_01_zh.html -->
+  </body>
+</html>
