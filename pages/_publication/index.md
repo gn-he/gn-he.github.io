@@ -3,6 +3,15 @@ language: en
 title: Publication
 ---
 ## Journal Paper
+1. [Song, J., He, G., Wang, J., & Zhang, P. (2022). Shaping future low-carbon energy and transportation systems: Digital technologies and applications. iEnergy, 1(3), 285-305.](https://www.sciopen.com/article/10.23919/IEN.2022.0040)
+1. [Jin, R., Zhou, Y., Lu, C., & Song, J. (2022). Deep reinforcement learning-based strategy for charging station participating in demand response. Applied Energy, 328, 120140.](https://ideas.repec.org/a/eee/appene/v328y2022ics0306261922013976.html)
+1. [Zhang, Y., Cheng, V., Mallapragada, D. S., Song, J., & He, G. (2022). A Model-Adaptive Clustering-Based Time Aggregation Method for Low-Carbon Energy System Optimization. IEEE Transactions on Sustainable Energy, 14(1), 55-64.](https://ieeexplore.ieee.org/document/9860080)
+1. [Wu, Z., Wang, J., Gao, F., et al. Sharing economy in local energy markets. Journal of Modern Power Systems and Clean Energy, 2022, early access.](https://ieeexplore.ieee.org/document/9989335)
+1. [Yu, Y., Chen, L., Wang, J., et al. Implications of Power Industry Marketization for Sustainable Generation Portfolios in China. Journal of Cleaner Production, 2022, 378: 134541.](https://www.sciencedirect.com/science/article/pii/S0959652622041130)
+1. [Zhang, T., Wang, J., Wang, H., et al. On the coordination of transmission-distribution grids: A dynamic feasible region method. IEEE Transactions on Power Systems, 2022, early access.](https://ieeexplore.ieee.org/abstract/document/9852714)
+1. [Wang, P., Wang, J., Jin. R., et al. Integrating biogas in regional energy systems to achieve near-zero carbon emissions. Applied Energy, 2022, 322: 119515.](https://ideas.repec.org/a/eee/appene/v322y2022ics0306261922008364.html)
+1. [Zheng, Y., Zheng, Y., He, G., & Song, J. (2022). Decomposition and decoupling analysis of electricity consumption carbon emissions in China. Frontiers of Engineering Management, 9(3), 486-498.](https://journal.hep.com.cn/fem/EN/10.1007/s42524-022-0215-3)
+1. [张蕴洁,冯莉媛,李铮,艾秋媛 & 邱泽奇.(2022).中美欧国际数字治理格局比较研究及建议. 中国科学院院刊(10),1386-1399.](http://www.bulletin.cas.cn/zgkxyyk/ch/reader/view_abstract.aspx?file_no=20221003&flag=1)
 1. [He, G., Mallapragada, D. S., Bose, A., Heuberger-Austin, C. F., & Gençer, E. (2021). Sector coupling via hydrogen to lower the cost of energy system decarbonization. Energy & Environmental Science, 14(9), 4635-4646.](https://pubs.rsc.org/en/content/articlehtml/2021/ee/d1ee00627d)
 1. [He, G., Mallapragada, D. S., Bose, A., Heuberger, C. F., & Gençer, E. (2021). Hydrogen supply chain planning with flexible transmission and storage scheduling. IEEE Transactions on Sustainable Energy, 12(3), 1730-1740.](https://ieeexplore.ieee.org/abstract/document/9371425)
 1. [He, G., Michalek, J., Kar, S., Chen, Q., Zhang, D., & Whitacre, J. F. (2021). Utility-scale portable energy storage systems. Joule, 5(2), 379-392.](https://www.sciencedirect.com/science/article/pii/S2542435120305730)
@@ -18,14 +27,21 @@ title: Publication
 {: .publication-list reversed="reversed" lang="en" }
 
 ## Conference Proceeding
+1. [Zhou, Y., Jin, R., & Song, J. (2022, July). An Online Learning Method for Industrial Demand Response Based on Load Disaggregation. In 2022 IEEE/IAS Industrial and Commercial Power System Asia (I&CPS Asia) (pp. 916-921). IEEE.](https://ieeexplore.ieee.org/document/9949833)
+1. [He, G., Chen, X., Yang, Y., Wang, J., & Song, J. (2022, July). Hybrid Portable and Stationary Energy Storage Systems with Battery Charging and Swapping Coordination. In 2022 IEEE/IAS Industrial and Commercial Power System Asia (I&CPS Asia) (pp. 1465-1470). IEEE. ](https://ieeexplore.ieee.org/document/9949714)
 1. He, G., Zhang, D., Pi, X., Chen, Q., Kar, S., & Whitacre, J. (2019, August). Spatiotemporal arbitrage of large-scale portable energy storage for grid congestion relief. In 2019 IEEE Power & Energy Society General Meeting (PESGM) (pp. 1-5). IEEE.
 1. Zou, P., Chen, Q., Xia, Q., Kang, C., He, G., & Chen, X. (2015, July). Modeling and algorithm to find the economic equilibrium for pool-based electricity market with the changing generation mix. In 2015 IEEE Power & Energy Society General Meeting (pp. 1-5). IEEE.
 {: .publication-list lang="en" }
 
 ## Patent
+1. X. Chen, G. He, Y. Yang, J. Song. 一种基于混合储能系统的运行决策方法及系统. (专利号：ZL202210650713.7)
+1. Y. Ding, G. He, J. Song, X. Chen. 一种基于深度强化学习的移动储能充放电时空规划方法 (申请号：202211343226.2)
+1. Y. Zhang，G. He, CSI0996PKU-基于模型的自适应性聚类数据处理方法、处理器 (申请号：10867169.1)
+1. Jianxiao Wang, Haiwang Zhong, Jie Song, et al. Energy flow optimization in multi-energy system based on spatiotemporal network flows. (United State Patent, Application No. 18/052979)
 1. G. He and J. F. Whitacre. "System and Method for Management of Electrochemical Energy Storage Devices,"2018, International Patent Appl. PCT/US18/46537, August 13, 2018.
 {: .publication-list lang="en" }
 
 ## Book Chapter
+1. Chapter 28 - Microgrid: Theory and Practice[M] Jianxiao Wang, Guannan He, Jie Song. IEEE Press.
 1. Chapter 10 - A Survey of Recent Developments and Requirements for Modern Power System Control P. Moutis, H. Amini, I.A. Khan, G. He, J. Mohammadi, S. Kar, and J. F. Whitacre Pathways to a Smarter Power System, Academic Press, pp. 289-315, 2019.
 {: .publication-list lang="en" }

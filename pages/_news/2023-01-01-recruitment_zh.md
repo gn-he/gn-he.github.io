@@ -1,6 +1,6 @@
 ---
 language: zh
-# no_lang_link: true
+no_lang_link: true
 # If there is no other language version, remove "#" above.
 title: 招聘启事
 ---
