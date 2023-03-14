@@ -61,3 +61,16 @@ Research area: data trading, data-drievn tasks on batteries
 - <span class="icon icon-mail"></span> Mail: [1900016640@pku.edu.cn](mailto:1900016640@pku.edu.cn)
 - <span class="icon icon-github"></span> GitHub: [fferriswheel](https://github.com/fferriswheel)
 {% endcapture %}{% include student.md image="/assets/images/students/cjk.jpeg" content=content %}
+
+## Research Assistant
+
+{% capture content %}
+**Siwei Liu**
+
+He obtained his bachelor’s degree in applied mathematics from The Chinese University of Hong Kong, Shenzhen, and master’s degree in applied mathematics from the University of Cambridge. Currently, he is the research assistant at PKU.
+
+Research area: Energy system optimization.
+
+- <span class="icon icon-mail"></span> Mail: [117010173@link.cuhk.edu.cn](mailto:117010173@link.cuhk.edu.cn)
+- <span class="icon icon-orcid"></span> Orcid: [0009-0002-4176-3381](https://orcid.org/0009-0002-4176-3381)
+{% endcapture %}{% include student.md image="/assets/images/students/lsw.jpeg" content=content %}

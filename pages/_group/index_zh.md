@@ -56,3 +56,16 @@ excerpt_text: 本课题组成员介绍。
 - <span class="icon icon-mail"></span> 邮箱：[1900016640@pku.edu.cn](mailto:1900016640@pku.edu.cn)
 - <span class="icon icon-github"></span> GitHub：[fferriswheel](https://github.com/fferriswheel)
 {% endcapture %}{% include student.md image="/assets/images/students/cjk.jpeg" content=content %}
+
+## 科研助理
+
+{% capture content %}
+**刘思危**
+
+2021年本科毕业于香港中文大学（深圳）并获得应用数学学士学位。2022年硕士毕业于剑桥大学，并获得应用数学硕士学位。现在在北京大学任职科研助理。
+
+研究方向为能源系统优化。
+
+- <span class="icon icon-mail"></span> 邮箱：[117010173@link.cuhk.edu.cn](mailto:117010173@link.cuhk.edu.cn)
+- <span class="icon icon-orcid"></span> Orcid：[0009-0002-4176-3381](https://orcid.org/0009-0002-4176-3381)
+{% endcapture %}{% include student.md image="/assets/images/students/lsw.jpeg" content=content %}
