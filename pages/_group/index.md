@@ -74,3 +74,15 @@ Research area: Energy system optimization.
 - <span class="icon icon-mail"></span> Mail: [117010173@link.cuhk.edu.cn](mailto:117010173@link.cuhk.edu.cn)
 - <span class="icon icon-orcid"></span> Orcid: [0009-0002-4176-3381](https://orcid.org/0009-0002-4176-3381)
 {% endcapture %}{% include student.md image="/assets/images/students/lsw.jpeg" content=content %}
+
+## Postdoc
+
+{% capture content %}
+
+Zongxian Wang got a Ph.D. in the College of Management and Economics at Tianjin University. He is a postdoctoral fellow at the College of Engineering, Peking University, Beijing, China.
+
+His research interests include low-carbon supply chains, game theory, and optimization of energy systems.
+
+- <span class="icon icon-mail"></span> Mail: [zongxian.wang@pku.edu.cn](mailto:zongxian.wang@pku.edu.cn)
+- <span class="icon icon-website"></span> Website: [zongxian.wang](zongxian.wang)
+{% endcapture %}{% include student.md image="/assets/images/students/wzx.jpg" content=content %}

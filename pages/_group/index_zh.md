@@ -69,3 +69,14 @@ excerpt_text: 本课题组成员介绍。
 - <span class="icon icon-mail"></span> 邮箱：[117010173@link.cuhk.edu.cn](mailto:117010173@link.cuhk.edu.cn)
 - <span class="icon icon-orcid"></span> Orcid：[0009-0002-4176-3381](https://orcid.org/0009-0002-4176-3381)
 {% endcapture %}{% include student.md image="/assets/images/students/lsw.jpeg" content=content %}
+
+## 博士后
+
+{% capture content %}
+**王宗宪**
+
+2023年毕业于天津大学管理与经济学部，获得工学博士学位，当前为北京大学工学院博士后，主要科研方向包括低碳供应链、博弈论、能源系统优化等。
+
+- <span class="icon icon-mail"></span> Mail: [zongxian.wang@pku.edu.cn](mailto:zongxian.wang@pku.edu.cn)
+- <span class="icon icon-website"></span> Website: [zongxian.wang](zongxian.wang)
+{% endcapture %}{% include student.md image="/assets/images/students/wzx.jpg" content=content %}
