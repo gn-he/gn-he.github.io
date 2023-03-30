@@ -61,3 +61,28 @@ Research area: data trading, data-drievn tasks on batteries
 - <span class="icon icon-mail"></span> Mail: [1900016640@pku.edu.cn](mailto:1900016640@pku.edu.cn)
 - <span class="icon icon-github"></span> GitHub: [fferriswheel](https://github.com/fferriswheel)
 {% endcapture %}{% include student.md image="/assets/images/students/cjk.jpeg" content=content %}
+
+## Research Assistant
+
+{% capture content %}
+**Siwei Liu**
+
+He obtained his bachelor’s degree in applied mathematics from The Chinese University of Hong Kong, Shenzhen, and master’s degree in applied mathematics from the University of Cambridge. Currently, he is the research assistant at PKU.
+
+Research area: Energy system optimization.
+
+- <span class="icon icon-mail"></span> Mail: [117010173@link.cuhk.edu.cn](mailto:117010173@link.cuhk.edu.cn)
+- <span class="icon icon-orcid"></span> Orcid: [0009-0002-4176-3381](https://orcid.org/0009-0002-4176-3381)
+{% endcapture %}{% include student.md image="/assets/images/students/lsw.jpeg" content=content %}
+
+## Postdoc
+
+{% capture content %}
+
+Zongxian Wang got a Ph.D. in the College of Management and Economics at Tianjin University. He is a postdoctoral fellow at the College of Engineering, Peking University, Beijing, China.
+
+His research interests include low-carbon supply chains, game theory, and optimization of energy systems.
+
+- <span class="icon icon-mail"></span> Mail: [zongxian.wang@pku.edu.cn](mailto:zongxian.wang@pku.edu.cn)
+- <span class="icon icon-website"></span> Website: [zongxian.wang](zongxian.wang)
+{% endcapture %}{% include student.md image="/assets/images/students/wzx.jpg" content=content %}
