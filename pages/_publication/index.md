@@ -3,6 +3,7 @@ language: en
 title: Publication
 ---
 ## Journal Paper
+1. [Chen, X., Yang, Y., Wang, J., Song, J., & He, G. (2023). Battery valuation and management for battery swapping station. Energy, 128120.](https://www.sciencedirect.com/science/article/abs/pii/S0360544223015141)
 1. [Song, J., He, G., Wang, J., & Zhang, P. (2022). Shaping future low-carbon energy and transportation systems: Digital technologies and applications. iEnergy, 1(3), 285-305.](https://www.sciopen.com/article/10.23919/IEN.2022.0040)
 1. [Zhang, Y., Cheng, V., Mallapragada, D. S., Song, J., & He, G. (2022). A Model-Adaptive Clustering-Based Time Aggregation Method for Low-Carbon Energy System Optimization. IEEE Transactions on Sustainable Energy, 14(1), 55-64.](https://ieeexplore.ieee.org/document/9860080)
 1. [Zheng, Y., Zheng, Y., He, G., & Song, J. (2022). Decomposition and decoupling analysis of electricity consumption carbon emissions in China. Frontiers of Engineering Management, 9(3), 486-498.](https://journal.hep.com.cn/fem/EN/10.1007/s42524-022-0215-3)
