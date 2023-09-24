@@ -15,4 +15,7 @@ heading_link: https://www.nature.com/articles/s41560-018-0129-9
 
 ![]({{ "/assets/images/research/decision_framework_zh.png" | relative_url }})
 
+- [He, G., Chen, Q., Moutis, P., Kar, S., & Whitacre, J. F. (2018). An intertemporal decision framework for electrochemical energy storage management. Nature Energy, 3(5), 404-412.](https://www.nature.com/articles/s41560-018-0129-9)
+- 
+
 {% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" next="电池网络优化" next_link="/research/area_02_zh.html" %}
