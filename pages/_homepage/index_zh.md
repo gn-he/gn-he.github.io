@@ -25,6 +25,17 @@ no_heading: true
 </div>
 <div class="col-md-8" markdown="1">
 
+
+## 研究方向：数字低碳能源
+
+- 方法：优化，数据科学，政策分析
+- 应用：能源与交通系统，电池，氢能
+
+## 新闻
+
+- 2023.09.23: 我们基于动力学深度学习的电池故障预警的工作在<b>Nature Communications发表</b>! <a href=" https://www.nature.com/articles/s41467-023-41226-5">文章链接</a>
+- 2023.09.04: 我们关于中国可再生能源时空不确定性分析的工作在<b>Nature Communications发表</b>! <a href=" https://www.nature.com/articles/s41467-023-40670-7">文章链接</a>
+
 ## 工作经历
 
 <table class="homepage-table">
@@ -63,11 +74,6 @@ no_heading: true
     </tr>
   </tbody>
 </table>
-
-## 研究课题
-
-- 方法：优化，数据科学，政策分析
-- 应用：能源与交通系统，电池，氢能
 
 ## 招聘启事
 

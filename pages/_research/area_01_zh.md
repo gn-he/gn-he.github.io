@@ -19,6 +19,7 @@ DOLPHYN模型以Julia语言和JuMP包为基础进行开发，以结构化和模�
 ![]({{ "/assets/images/research/carbon_supply_chain_zh.png" | relative_url }})
 
 - [He, G., Mallapragada, D. S., Bose, A., Heuberger-Austin, C. F., & Gençer, E. (2021). Sector coupling via hydrogen to lower the cost of energy system decarbonization. Energy & Environmental Science, 14(9), 4635-4646.](https://pubs.rsc.org/en/content/articlehtml/2021/ee/d1ee00627d)
+- [Wang, J., Chen, L., Tan, Z., Du, E., Liu, N., Ma, J., ... & He, G. (2023). Inherent spatiotemporal uncertainty of renewable power in China. Nature Communications, 14(1), 5379.](https://www.nature.com/articles/s41467-023-40670-7)
 - [He, G., Mallapragada, D. S., Bose, A., Heuberger, C. F., & Gençer, E. (2021). Hydrogen supply chain planning with flexible transmission and storage scheduling. IEEE Transactions on Sustainable Energy, 12(3), 1730-1740.](https://ieeexplore.ieee.org/abstract/document/9371425)
 
 {% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" prev="电池网络优化" prev_link="/research/area_02_zh.html" %}

@@ -25,6 +25,17 @@ Assistant Professor
 </div>
 <div class="col-md-8" markdown="1">
 
+
+## Research Area
+
+- Methods: Optimization, Data Science, Control, Policy Analysis
+- Applications: Energy and Transportation Systems, Hydrogen, Battery
+
+## News
+
+- 2023.09.23: Our paper（<a href=" https://www.nature.com/articles/s41467-023-41226-5">Link</a>) on a dynamical autoencoder for battery fault detection has been published in <b>Nature Communications</b>! 
+- 2023.09.04: Our paper (<a href=" https://www.nature.com/articles/s41467-023-40670-7">Link</a>) on the spatiotemporal uncertainty of renewable power in China has been published in <b>Nature Communications</b>! 
+
 ## Appointments
 
 <table class="homepage-table">
@@ -64,10 +75,6 @@ Assistant Professor
   </tbody>
 </table>
 
-## Research Area
-
-- Methods: Optimization, Data Science, Control, Policy Analysis
-- Applications: Energy and Transportation Systems, Hydrogen, Battery
 
 ## Teaching
 

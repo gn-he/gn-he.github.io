@@ -1,6 +1,6 @@
 ---
 language: zh
-title: "研究：电化学储能全寿命周期决策框架"
+title: "研究：电化学储能全寿命周期决策"
 heading_link: https://www.nature.com/articles/s41560-018-0129-9
 ---
 短期而言（日前），储能运营商依据预测的日前电价和中期决策的边际使用收益（MBU，Marginal Benefit of Usage）来决定储能的日内出力从而获得最大收益。
@@ -14,5 +14,13 @@ heading_link: https://www.nature.com/articles/s41560-018-0129-9
 该框架首先定义了电化学储能的跨期决策数学模型，以最大化全寿命周期收益为目标，涵盖短期调度与控制决策和长期运行规划和维护决策，形成多时间尺度耦合决策模型，同时对电化学储能的循环老化和日历老化进行了合理抽象建模，从而精细考虑了不同电化学类型的储能电池老化特性；其次，基于跨期决策模型的最优性条件，推导定义了电化学储能的老化成本，包括长期平均老化成本和短期时变老化成本，分别用于长期规划评估和短期调控决策；最后，该框架进一步提出了电化学储能的经济寿命，并研究了由于储能容量和效率衰减使得盈利能力大幅减小无法补偿固定运维成本，从而使得经济寿命短于物理寿命的情景与条件。
 
 ![]({{ "/assets/images/research/decision_framework_zh.png" | relative_url }})
+
+- [He, G., Chen, Q., Moutis, P., Kar, S., & Whitacre, J. F. (2018). An intertemporal decision framework for electrochemical energy storage management. Nature Energy, 3(5), 404-412.](https://www.nature.com/articles/s41560-018-0129-9)
+
+面向实际数据的锂离子电池安全预警问题，搭建了基于动态变分自编码器的电池异常检测深度学习框架（dynamical autoencoder for anomaly detection, DyAD），并通过实际社会经济影响因子分析优化深度学习模型，实现高检出率、低误报率的电池异常检测，同时发布了包含347辆电动汽车的69万条充电片段的大规模实车电池数据集。
+
+- [Zhang, J., Wang, Y., Jiang, B., He, H., Huang, S., Wang, C., ... He, G. & Ouyang, M. (2022). Realistic fault detection of li-ion battery via dynamical deep learning. Nature Communications, 14(1), 5490.](https://www.nature.com/articles/s41467-023-41226-5)
+
+
 
 {% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" next="电池网络优化" next_link="/research/area_02_zh.html" %}
