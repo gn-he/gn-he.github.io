@@ -20,6 +20,14 @@ Xinjiang Chen received the B.S. degree in traffic engineering from Wuyi Universi
 - <span class="icon icon-mail"></span> Mail: [xinjiangchen@stu.pku.edu.cn](mailto:xinjiangchen@stu.pku.edu.cn); [xinjiangchen@outlook.com](mailto:xinjiangchen@outlook.com)
 - <span class="icon icon-orcid"></span> Orcid: [0000-0002-8997-9758](https://orcid.org/0000-0002-8997-9758)
 {% endcapture %}{% include student.md image="/assets/images/students/cxj.jpg" content=content %}
+**Junkang Chen**
+
+Research area: data trading, data-drievn tasks on batteries
+
+- <span class="icon icon-mail"></span> Mail: [1900016640@pku.edu.cn](mailto:1900016640@pku.edu.cn)
+- <span class="icon icon-github"></span> GitHub: [fferriswheel](https://github.com/fferriswheel)
+{% endcapture %}{% include student.md image="/assets/images/students/cjk.jpeg" content=content %}
+
 
 ## MSc Students
 
@@ -50,17 +58,35 @@ Research Interests: Deep Learning, Modeling Optimization.
 - <span class="icon icon-mail"></span> Mail: [kaiyu_xie@stu.pku.edu.cn](mailto:kaiyu_xie@stu.pku.edu.cn)
 - <span class="icon icon-github"></span> GitHub: [steal-the-soul](https://github.com/steal-the-soul)
 {% endcapture %}{% include student.md image="/assets/images/students/xky.jpeg" content=content %}
+**Hengbo Xiao**
 
-## Undergraduates
+He received the B.S. degree from School of Computer Science, Fudan University. Now he is pursuing the MsC degree in College of Engineering, Peking University.
 
-{% capture content %}
-**Junkang Chen**
+Research Interests: Deep Learning, Electrochemical simulation of lithium-ion batteries.
 
-Research area: data trading, data-drievn tasks on batteries
+- <span class="icon icon-mail"></span> Mail: [2301213136@stu.pku.edu.cn](mailto:2301213136@stu.pku.edu.cn)
+{% endcapture %}{% include student.md image="/assets/images/students/xhb.jpg" content=content %}
+**Haowei Shao**
 
-- <span class="icon icon-mail"></span> Mail: [1900016640@pku.edu.cn](mailto:1900016640@pku.edu.cn)
-- <span class="icon icon-github"></span> GitHub: [fferriswheel](https://github.com/fferriswheel)
-{% endcapture %}{% include student.md image="/assets/images/students/cjk.jpeg" content=content %}
+Graduated from WuHan University with a bachelor's degree.He is now pursuing a master degree in Peking University. 
+
+
+Research interests: Energy system optimization.
+
+- <span class="icon icon-mail"></span> Mail: [slightly@stu.pku.edu.cn](mailto:slightly@stu.pku.edu.cn)
+{% endcapture %}{% include student.md image="/assets/images/students/shw.jpg" content=content %}
+**Chenyu Feng**
+
+Received the B.S. degree in Software Engineering from Nanjing University of Posts and Telecommunications. 
+
+
+Research interests: Electricity Market Data Mining.
+
+- <span class="icon icon-mail"></span> Mail: [fengchenyu@stu.pku.edu.cn](mailto:fengchenyu@stu.pku.edu.cn)
+- <span class="icon icon-github"></span> GitHub: [VirgilF](https://github.com/VirgilF)
+{% endcapture %}{% include student.md image="/assets/images/students/fcy.jpg" content=content %}
+
+
 
 ## Research Assistant
 
@@ -78,11 +104,19 @@ Research area: Energy system optimization.
 ## Postdoc
 
 {% capture content %}
+**Zongxian Wang**
 
-Zongxian Wang got a Ph.D. in the College of Management and Economics at Tianjin University. He is a postdoctoral fellow at the College of Engineering, Peking University, Beijing, China.
+He got a Ph.D. in the College of Management and Economics at Tianjin University. He is a postdoctoral fellow at the College of Engineering, Peking University, Beijing, China.
 
 His research interests include low-carbon supply chains, game theory, and optimization of energy systems.
 
 - <span class="icon icon-mail"></span> Mail: [zongxian.wang@pku.edu.cn](mailto:zongxian.wang@pku.edu.cn)
 - <span class="icon icon-website"></span> Website: [zongxian.wang](zongxian.wang)
 {% endcapture %}{% include student.md image="/assets/images/students/wzx.jpg" content=content %}
+**Bidan Zhang**
+
+She received her M.S. degree in Power System Engineering from the  University College of London, followed by a Ph.D. in Electronic and Electrical Engineering from the University of Liverpool.    Currently, she holds a postdoctoral fellow position at the School of Engineering, Peking University.    Her scholarly pursuits primarily focus on the innovative realms of Peer-to-Peer energy trading, energy management systems, and the dynamics of electricity markets.
+
+
+- <span class="icon icon-mail"></span> Mail: [bidan.zhang@pku.edu.cn](mailto:bidan.zhang@pku.edu.cn)
+{% endcapture %}{% include student.md image="/assets/images/students/zbd.jpg" content=content %}

@@ -21,6 +21,7 @@ title: Publication
 16. [He, G., Chen, Q., Kang, C., & Xia, Q. (2016). Optimal operating strategy and revenue estimates for the arbitrage of a vanadium redox flow battery considering dynamic efficiencies and capacity loss. IET Generation, Transmission & Distribution, 10(5), 1278-1285.](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-gtd.2015.0373)
 17. [Zou, P., Chen, Q., Xia, Q., He, G., & Kang, C. (2015). Evaluating the contribution of energy storages to support large-scale renewable generation in joint energy and ancillary service markets. IEEE Transactions on Sustainable Energy, 7(2), 808-818.](https://ieeexplore.ieee.org/abstract/document/7337454)
 18. [Zou, P., Chen, Q., Xia, Q., He, G., Kang, C., & Conejo, A. J. (2016). Pool equilibria including strategic storage. Applied energy, 177, 260-270.](https://www.sciencedirect.com/science/article/abs/pii/S0306261916307097)
+19. [Chen, X., Yang, Y., Song, J., Wang, J., & He, G. (2023). Hybrid Energy Storage System Optimization With Battery Charging and Swapping Coordination. IEEE Transactions on Automation Science and Engineering.](https://ieeexplore.ieee.org/abstract/document/10192528)
 {: .publication-list reversed="reversed" lang="en" }
 
 ## Conference Proceeding
