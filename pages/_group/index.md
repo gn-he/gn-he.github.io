@@ -24,7 +24,7 @@ Xinjiang Chen received the B.S. degree in traffic engineering from Wuyi Universi
 
 Research area: data trading, data-drievn tasks on batteries
 
-- <span class="icon icon-mail"></span> Mail: [1900016640@pku.edu.cn](mailto:1900016640@pku.edu.cn)
+- <span class="icon icon-mail"></span> Mail: [chenjkpku@163.com](mailto:chenjkpku@163.com)
 - <span class="icon icon-github"></span> GitHub: [fferriswheel](https://github.com/fferriswheel)
 {% endcapture %}{% include student.md image="/assets/images/students/cjk.jpeg" content=content %}
 
@@ -85,7 +85,15 @@ Research interests: Electricity Market Data Mining.
 - <span class="icon icon-mail"></span> Mail: [fengchenyu@stu.pku.edu.cn](mailto:fengchenyu@stu.pku.edu.cn)
 - <span class="icon icon-github"></span> GitHub: [VirgilF](https://github.com/VirgilF)
 {% endcapture %}{% include student.md image="/assets/images/students/fcy.jpg" content=content %}
+**Yifang Zheng**
 
+She received the B.S. degree in Business Administration from Shandong University.
+
+
+Research area: low-carbon coupled foodstuff and bio-energy supply chain optimization.
+
+- <span class="icon icon-mail"></span> Mail: [2301213113@stu.pku.edu.cn](mailto:2301213113@stu.pku.edu.cn)
+{% endcapture %}{% include student.md image="/assets/images/students/zyf.jpg" content=content %}
 
 
 ## Research Assistant
