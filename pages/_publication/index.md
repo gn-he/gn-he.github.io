@@ -35,6 +35,7 @@ title: Publication
 1. Y. Ding, G. He, J. Song, X. Chen. 一种基于深度强化学习的移动储能充放电时空规划方法 (申请号：202211343226.2)
 1. Y. Zhang，G. He, CSI0996PKU-基于模型的自适应性聚类数据处理方法、处理器 (申请号：10867169.1)
 1. G. He and J. F. Whitacre. "System and Method for Management of Electrochemical Energy Storage Devices,"2018, International Patent Appl. PCT/US18/46537, August 13, 2018.
+1. X. Chen, G. He, Y. Ding, J. Song. 混合储能系统库存路径规划方法、装置及电子设备. (专利号：ZL202211409098.7)
 {: .publication-list lang="en" }
 
 ## Book Chapter
