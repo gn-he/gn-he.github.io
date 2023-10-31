@@ -13,7 +13,9 @@ excerpt_text: 本课题组成员介绍。
 - <span class="icon icon-mail"></span> 邮箱：[zyh at pku dot edu dot cn](mailto:zyh@pku.edu.cn)
 - <span class="icon icon-github"></span> Github：[Betristor](https://github.com/Betristor)
 - <span class="icon icon-orcid"></span> Orcid：[0000-0003-2435-202X](https://orcid.org/0000-0003-2435-202X)
-{% endcapture %}{% include student.md image="/assets/images/students/zyh.jpeg" content=content %}{% capture content %}
+{% endcapture %}{% include student.md image="/assets/images/students/zyh.jpeg" content=content %}
+
+{% capture content %}
 **陈新江**
 
 北京大学工学院力学（工业与系统工程）专业博士研究生，2018年本科毕业于五邑大学，2021年硕士毕业于中南大学，研究兴趣主要为智能优化与决策、能源和运输系统优化等。
@@ -30,14 +32,18 @@ excerpt_text: 本课题组成员介绍。
 本科就读于东北大学。现于北京大学工学院攻读硕士研究生。
 
 - <span class="icon icon-mail"></span> 邮箱：[zhengrun.wu@stu.pku.edu.cn](mailto:zhengrun.wu@stu.pku.edu.cn)
-{% endcapture %}{% include student.md image="/assets/images/students/wzr.jpeg" content=content %}{% capture content %}
+{% endcapture %}{% include student.md image="/assets/images/students/wzr.jpeg" content=content %}
+
+{% capture content %}
 **林家榛**
 
 本科就读于四川大学,数学与应用数学专业。现于北京大学工学院攻读硕士研究生。
 
 - <span class="icon icon-mail"></span> 邮箱：[linjiazhen@stu.pku.edu.cn](mailto:linjiazhen@stu.pku.edu.cn)
 - <span class="icon icon-github"></span> GitHub：[azhenlng](https://github.com/azhenlng)
-{% endcapture %}{% include student.md image="/assets/images/students/ljz.jpeg" content=content %}{% capture content %}
+{% endcapture %}{% include student.md image="/assets/images/students/ljz.jpeg" content=content %}
+
+{% capture content %}
 **谢恺煜**
 
 本科毕业于东北大学，21级硕士在读。研究兴趣：深度学习，建模优化。
