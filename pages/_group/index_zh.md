@@ -130,7 +130,7 @@ excerpt_text: 本课题组成员介绍。
 {% capture content %}
 **张碧丹**
 
-她在伦敦大学学院获得电力系统工程硕士学位，随后在利物浦大学获得电子和电气工程博士学位。现为北京大学工程学院博士后。她的学术研究主要集中在点对点能源交易、能源管理系统和电力市场动态的创新领域。
+她在伦敦大学学院获得电力系统工程硕士学位，随后在利物浦大学获得电子电气工程博士学位。现为北京大学工程学院博士后。她的学术研究主要集中在点对点能源交易、能源管理系统和电力市场动态的创新领域。
 
 - <span class="icon icon-mail"></span> 邮箱: [bidan.zhang@pku.edu.cn](mailto:bidan.zhang@pku.edu.cn)
 {% endcapture %}{% include student.md image="/assets/images/students/zbd.jpg" content=content %}
