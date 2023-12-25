@@ -32,9 +32,9 @@ no_heading: true
 - 应用：能源与交通系统，电池，氢能
 
 ## 新闻
-
-- 2023.09.23: 我们基于动力学深度学习的电池故障预警的工作在<b>Nature Communications发表</b>! <a href=" https://www.nature.com/articles/s41467-023-41226-5">文章链接</a>
-- 2023.09.04: 我们关于中国可再生能源时空不确定性分析的工作在<b>Nature Communications发表</b>! <a href=" https://www.nature.com/articles/s41467-023-40670-7">文章链接</a>
+- 2023.12.22: 国家自然科学基金重点类专项项目《多源时空数据协同的新型能源系统多尺度风险管理》获批立项！
+- 2023.09.23: 基于动力学深度学习的电池故障预警的工作在<b>Nature Communications发表</b>! <a href=" https://www.nature.com/articles/s41467-023-41226-5">文章链接</a>
+- 2023.09.04: 关于中国可再生能源时空不确定性分析的工作在<b>Nature Communications发表</b>! <a href=" https://www.nature.com/articles/s41467-023-40670-7">文章链接</a>
 
 ## 工作经历
 
