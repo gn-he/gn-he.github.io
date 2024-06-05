@@ -33,10 +33,11 @@ Assistant Professor
 
 ## News
 - 2024.06.06: I am honored to receive the <b>2024 IEEE PES Prize Paper Award </b>, for my paper "Hydrogen Supply Chain Planning with Flexible Transmission and Storage Scheduling". This award recognizes the most oustanding papers published during the past three years in an IEEE PES Transaction. Two papers are selected each year in average for the award since 1966. <a href=" https://ieeexplore.ieee.org/abstract/document/9371425">Paper Link</a>
+- 2024.03.20: Our paper "<a href=" https://www.nature.com/articles/s41467-023-41226-5">Realistic fault detection of li-ion battery via dynamical deep learning</a>" has been selected as a featured article in the Nature Communications <b>Editor's highlights</b>.
 - 2024.03.06: I am honored to be recognized by IISE as part of its <b>ESD Outstanding Young Investigator Award </b> in 2024！This award recognizes IISE Energy Systems Division members under the age of 35 for their technical contribution to energy systems.
-- 2024.01.04: Our paper（<a href=" https://www.nature.com/articles/s41467-023-43884-x">Link</a>) on a cross-scale framework for evaluating flexibility values of electric vehicles has been published in <b>Nature Communications</b>! 
-- 2023.09.23: Our paper（<a href=" https://www.nature.com/articles/s41467-023-41226-5">Link</a>) on a dynamical autoencoder for battery fault detection has been published in <b>Nature Communications</b>! 
-- 2023.09.04: Our paper (<a href=" https://www.nature.com/articles/s41467-023-40670-7">Link</a>) on the spatiotemporal uncertainty of renewable power in China has been published in <b>Nature Communications</b>! 
+- 2024.01.04: Our paper "<a href=" https://www.nature.com/articles/s41467-023-43884-x">A cross-scale framework for evaluating flexibility values of battery and fuel cell electric vehicles</a>" has been published in <b>Nature Communications</b>. 
+- 2023.09.23: Our paper "<a href=" https://www.nature.com/articles/s41467-023-41226-5">Realistic fault detection of li-ion battery via dynamical deep learning</a>" has been published in <b>Nature Communications</b>.
+- 2023.09.04: Our paper "<a href=" https://www.nature.com/articles/s41467-023-40670-7">Inherent spatiotemporal uncertainty of renewable power in China</a>" has been published in <b>Nature Communications</b>. 
 
 ## Appointments
 
