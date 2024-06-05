@@ -32,6 +32,7 @@ no_heading: true
 - 应用：能源与交通系统，电池，氢能
 
 ## 新闻
+- 2024.06.06: 关于氢供应链灵活性建模与优化的论文获<b>2024 IEEE PES Prize Paper Award </b>。该奖为IEEE电力能源分会的重要奖项之一，奖励过去3年内在IEEE PES系列期刊发表的最具影响力的论文，每年仅授奖2篇。<a href=" https://ieeexplore.ieee.org/abstract/document/9371425">文章链接</a>
 - 2024.03.06: 获<b>国际工业与系统工程师学会(IISE)能源系统杰出青年科学家奖</b>（国内首次）。
 - 2024.01.04: 可用于量化电动汽车灵活性价值的跨尺度能源优化框架在<b>Nature Communications发表</b> 。<a href=" https://www.nature.com/articles/s41467-023-43884-x">文章链接</a>
 - 2023.12.22: 国家自然科学基金重点类专项项目《多源时空数据协同的新型能源系统多尺度风险管理》获批立项。
