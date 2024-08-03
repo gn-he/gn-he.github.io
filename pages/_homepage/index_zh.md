@@ -32,9 +32,13 @@ no_heading: true
 - 应用：能源与交通系统，电池，氢能
 
 ## 新闻
-
-- 2023.09.23: 我们基于动力学深度学习的电池故障预警的工作在<b>Nature Communications发表</b>! <a href=" https://www.nature.com/articles/s41467-023-41226-5">文章链接</a>
-- 2023.09.04: 我们关于中国可再生能源时空不确定性分析的工作在<b>Nature Communications发表</b>! <a href=" https://www.nature.com/articles/s41467-023-40670-7">文章链接</a>
+- 2024.06.06: 关于氢供应链灵活性建模与优化的论文获<b><a href="https://ieee-pes.org/news/just-announced-2024-ieee-power-amp-energy-society-award-recipients/">2024 IEEE PES Prize Paper Award</a></b>。该奖为IEEE电力能源分会的重要奖项之一，自1966年设立，奖励过去3年内在IEEE PES系列期刊发表的最具影响力的论文，每年仅授奖2篇，约0.1%。<a href=" https://ieeexplore.ieee.org/abstract/document/9371425">文章链接</a>
+- 2024.03.20: 论文"<a href=" https://www.nature.com/articles/s41467-023-41226-5">Realistic fault detection of li-ion battery via dynamical deep learning</a>"被选为Nature Communications <a href=" https://www.nature.com/collections/dmmhtcypsc"><b>Editors’ Highlights</b></a>!
+- 2024.03.06: 获<b>国际工业与系统工程师学会(IISE)能源系统杰出青年科学家奖</b>（国内首次）。 
+- 2024.01.04: 可用于量化电动汽车灵活性价值的跨尺度能源优化框架"<a href=" https://www.nature.com/articles/s41467-023-43884-x">A cross-scale framework for evaluating flexibility values of battery and fuel cell electric vehicles</a>"在<b>Nature Communications</b>发表! 
+- 2023.12.22: 国家自然科学基金重点类专项项目《多源时空数据协同的新型能源系统多尺度风险管理》获批立项！
+- 2023.09.23: 基于动力学深度学习的电池故障预警成果"<a href=" https://www.nature.com/articles/s41467-023-41226-5">Realistic fault detection of li-ion battery via dynamical deep learning</a>"在<b>Nature Communications</b>发表! 
+- 2023.09.04: 关于中国可再生能源时空不确定性分析成果"<a href=" https://www.nature.com/articles/s41467-023-40670-7">Inherent spatiotemporal uncertainty of renewable power in China</a>"在<b>Nature Communications</b>发表! 
 
 ## 工作经历
 
