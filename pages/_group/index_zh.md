@@ -5,7 +5,7 @@ excerpt_text: 本课题组成员介绍。
 ---
 
 ## 博士研究生
-<!--
+
 {% capture content %}
 **张育恒**
 
@@ -135,5 +135,3 @@ excerpt_text: 本课题组成员介绍。
 
 - <span class="icon icon-mail"></span> 邮箱: [bidan.zhang@pku.edu.cn](mailto:bidan.zhang@pku.edu.cn)
 {% endcapture %}{% include student.md image="/assets/images/students/zbd.jpg" content=content %}
-
--->

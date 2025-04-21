@@ -13,8 +13,8 @@ no_heading: true
 Assistant Professor
 </div>
 <div class="site-personal-info" markdown="1">
-- <span class="icon icon-telephone"></span> Tel: 010-82524866
-- <span class="icon icon-office"></span> Office: Room 1004, Wangkezhen Building, 5 Yiheyuan Road, Haidian District, Beijing
+- <span class="icon icon-telephone"></span> Tel: 010-62764138
+- <span class="icon icon-office"></span> Office: ENN Engineering Building, 5 Yiheyuan Road, Haidian District, Beijing
 - <span class="icon icon-mail"></span> Email: gnhe at pku dot edu dot cn
 - <span class="icon icon-google-scholar"></span> [Google Scholar](https://scholar.google.com/citations?user=0tu93ZsAAAAJ)
 - <span class="icon icon-github"></span> [GitHub](https://github.com/gn-he)

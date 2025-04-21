@@ -4,7 +4,7 @@ title: Group Members
 ---
 
 ## Ph.D. Students
-<!--
+
 {% capture content %}
 **Yuheng Zhang**
 
@@ -142,4 +142,3 @@ She received her M.S. degree in Power System Engineering from the  University Co
 - <span class="icon icon-mail"></span> Mail: [bidan.zhang@pku.edu.cn](mailto:bidan.zhang@pku.edu.cn)
 {% endcapture %}{% include student.md image="/assets/images/students/zbd.jpg" content=content %}
 
--->
