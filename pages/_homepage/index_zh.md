@@ -45,9 +45,19 @@ no_heading: true
 <table class="homepage-table">
   <tbody>
     <tr>
-      <td width="180" valign="top"><ul><li>2021/09-至今</li></ul></td>
-      <td width="80" valign="top">助理教授</td>
-      <td valign="top">北京大学工学院工业工程与管理系，北京大学大数据分析与应用技术国家工程实验室</td>
+      <td width="180" valign="top"><ul><li>2025/06至今</li></ul></td>
+      <td width="80" valign="top">助理教授，研究员</td>
+      <td valign="top">北京大学先进制造与机器人学院</td>
+    </tr>
+    <tr>
+      <td width="180" valign="top"><ul><li>2021/09至今</li></ul></td>
+      <td width="80" valign="top">助理教授，研究员</td>
+      <td valign="top">北京大学大数据分析与应用技术国家工程实验室</td>
+    </tr>
+    <tr>
+      <td width="180" valign="top"><ul><li>2021/09-2025/06</li></ul></td>
+      <td width="80" valign="top">助理教授，研究员</td>
+      <td valign="top">北京大学工学院工业工程与管理系</td>
     </tr>
     <tr>
       <td valign="top"><ul><li>2019/09-2021/08</li></ul></td>

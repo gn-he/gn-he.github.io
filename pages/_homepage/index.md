@@ -44,7 +44,12 @@ Assistant Professor
 <table class="homepage-table">
   <tbody>
     <tr>
-      <td width="150" valign="top"><ul><li>2021/09-now</li></ul></td>
+      <td width="150" valign="top"><ul><li>2025/06-now</li></ul></td>
+      <td width="180" valign="top">Assistant Professor</td>
+      <td valign="top">School of Advanced Manufacturing and Robotics, Peking University</td>
+    </tr>
+    <tr>
+      <td width="150" valign="top"><ul><li>2021/09-2025/06</li></ul></td>
       <td width="180" valign="top">Assistant Professor</td>
       <td valign="top">Department of Industrial Engineering and Management, College of Engineering, Peking University</td>
     </tr>
