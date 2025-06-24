@@ -17,7 +17,7 @@ Assistant Professor
 - <span class="icon icon-office"></span> Office: ENN Engineering Building, 5 Yiheyuan Road, Haidian District, Beijing
 - <span class="icon icon-mail"></span> Email: gnhe at pku dot edu dot cn
 - <span class="icon icon-google-scholar"></span> [Google Scholar](https://scholar.google.com/citations?user=0tu93ZsAAAAJ)
-- <span class="icon icon-github"></span> [GitHub](https://github.com/gn-he)
+<!-- - <span class="icon icon-github"></span> [GitHub](https://github.com/gn-he) -->
 - <span class="icon icon-orcid"></span> [ORCID](https://orcid.org/0000-0002-5055-076X)
 - <span class="icon icon-linkedin"></span> [LinkedIn](https://www.linkedin.com/pub/guannan-he/70/b09/a1)
 - <span class="icon icon-researchgate"></span> [ResearchGate](https://www.researchgate.net/profile/Guannan_He)
