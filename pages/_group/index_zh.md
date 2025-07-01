@@ -24,6 +24,7 @@ excerpt_text: 本课题组成员介绍。
 - <span class="icon icon-mail"></span> 邮箱：[xinjiangchen@stu.pku.edu.cn](mailto:xinjiangchen@stu.pku.edu.cn); [xinjiangchen@outlook.com](mailto:xinjiangchen@outlook.com)
 - <span class="icon icon-orcid"></span> Orcid：[0000-0002-8997-9758](https://orcid.org/0000-0002-8997-9758)
 {% endcapture %}{% include student.md image="/assets/images/students/cxj.jpg" content=content %}
+
 {% capture content %}
 **陈俊康**
 
@@ -32,6 +33,16 @@ excerpt_text: 本课题组成员介绍。
 - <span class="icon icon-mail"></span> 邮箱：[chenjkpku@163.com](mailto:chenjkpku@163.com)
 - <span class="icon icon-github"></span> GitHub：[fferriswheel](https://github.com/fferriswheel)
 {% endcapture %}{% include student.md image="/assets/images/students/cjk.jpeg" content=content %}
+
+{% capture content %}
+**郑亦芳**
+
+本科毕业于山东大学工商管理专业。
+
+研究兴趣：低碳背景下粮食和能源供应链耦合优化。
+
+- <span class="icon icon-mail"></span> 邮箱: [2301213113@stu.pku.edu.cn](mailto:2301213113@stu.pku.edu.cn)
+{% endcapture %}{% include student.md image="/assets/images/students/zyf.jpg" content=content %}
 
 ## 硕士研究生
 
@@ -93,16 +104,6 @@ excerpt_text: 本课题组成员介绍。
 - <span class="icon icon-mail"></span> 邮箱: [fengchenyu@stu.pku.edu.cn](mailto:fengchenyu@stu.pku.edu.cn)
 - <span class="icon icon-github"></span> GitHub: [VirgilF](https://github.com/VirgilF)
 {% endcapture %}{% include student.md image="/assets/images/students/fcy.jpg" content=content %}
-
-{% capture content %}
-**郑亦芳**
-
-本科毕业于山东大学工商管理专业。
-
-研究兴趣：低碳背景下粮食和能源供应链耦合优化。
-
-- <span class="icon icon-mail"></span> 邮箱: [2301213113@stu.pku.edu.cn](mailto:2301213113@stu.pku.edu.cn)
-{% endcapture %}{% include student.md image="/assets/images/students/zyf.jpg" content=content %}
 
 ## 科研助理
 
