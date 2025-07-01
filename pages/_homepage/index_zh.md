@@ -13,8 +13,8 @@ no_heading: true
 助理教授，研究员，博士生导师
 </div>
 <div class="site-personal-info" markdown="1">
-- <span class="icon icon-telephone"></span> 联系电话：010-82524866
-- <span class="icon icon-office"></span> 办公室：北京市海淀区颐和园路5号王克桢楼1004室
+- <span class="icon icon-telephone"></span> 联系电话：010-62764138
+- <span class="icon icon-office"></span> 办公室：北京市海淀区颐和园路5号北京大学新奥工学大楼
 - <span class="icon icon-mail"></span> Email: gnhe at pku dot edu dot cn
 - <span class="icon icon-google-scholar"></span> [Google Scholar](https://scholar.google.com/citations?user=0tu93ZsAAAAJ)
 - <span class="icon icon-github"></span> [GitHub主页](https://github.com/gn-he)
