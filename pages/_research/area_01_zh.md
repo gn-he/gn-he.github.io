@@ -1,25 +1,26 @@
 ---
 language: zh
-title: "研究：电碳氢耦合能源系统的优化建模"
-heading_link: https://ieeexplore.ieee.org/abstract/document/9371425/
+title: "研究：电化学储能全寿命周期决策"
+heading_link: https://www.nature.com/articles/s41560-018-0129-9
 ---
-DOLPHYN是一个开源、高度可扩展的能源系统优化模型（[GitHub](https://github.com/macroenergy/DOLPHYN)），可用于探索未来融合了氢能和碳捕集与利用技术的低碳能源系统形态与模式。
+短期而言（日前），储能运营商依据预测的日前电价和中期决策的边际使用收益（MBU，Marginal Benefit of Usage）来决定储能的日内出力从而获得最大收益。
 
-DOLPHYN模型在电力、氢流以及碳流的全生命周期中评估投资以及运营成本，涵盖“源网荷储”四个主要环节（包括氢流和碳流的压缩液化）。在满足电力与氢能的需求的同时，模型可求解满足技术与政策约束的能源系统最优投资运行方案。
+中期而言（时间尺度月到年），储能运营商通过计算全生命周期边际使用收益和折算因子获得折算的边际使用收益。
 
-该模型可以对多种能源资源进行建模，包括可再生能源、火电等多种发电资源，电力和氢能生产过程中的碳捕集技术，氢流和碳流的不同运输方式，如卡车和管道。电力系统和氢能系统通过电解制氢与氢能发电相耦合，同时氢气压缩需要消耗电能。关键的运行约束包括：
+长期而言，储能运营商决定最优的全生命周期边际使用收益来最大化全生命周期收益，满足储能生命周期内的老化约束。计算得到的全生命周期边际使用收益会在中期计算时用到。
 
-- 各地区的电力和氢能供需平衡；
-- 储能装置的投资和运行规划；
-- 各地区间电力和氢能的转运平衡以及相应的卡车运输规划；
-- 火力发电和天然气制氢机组的机组组合约束。
+在规划阶段，在获得全生命周期的收益和老化成本后，我们计算平均使用收益（ABU，Average Benefit of Usage）和平均老化成本（ACD，Average Cost of Degradation）。之后就可以通过平均使用收益和平均老化成本计算投资决策变量。
 
-DOLPHYN模型以Julia语言和JuMP包为基础进行开发，以结构化和模块化的代码开发为特点。模型高度灵活可配置，适用于学术研究中各种能源技术和能源政策的评估分析与资源配置。
+该框架首先定义了电化学储能的跨期决策数学模型，以最大化全寿命周期收益为目标，涵盖短期调度与控制决策和长期运行规划和维护决策，形成多时间尺度耦合决策模型，同时对电化学储能的循环老化和日历老化进行了合理抽象建模，从而精细考虑了不同电化学类型的储能电池老化特性；其次，基于跨期决策模型的最优性条件，推导定义了电化学储能的老化成本，包括长期平均老化成本和短期时变老化成本，分别用于长期规划评估和短期调控决策；最后，该框架进一步提出了电化学储能的经济寿命，并研究了由于储能容量和效率衰减使得盈利能力大幅减小无法补偿固定运维成本，从而使得经济寿命短于物理寿命的情景与条件。
 
-![]({{ "/assets/images/research/carbon_supply_chain_zh.png" | relative_url }})
+![]({{ "/assets/images/research/decision_framework_zh.png" | relative_url }})
 
-- [He, G., Mallapragada, D. S., Bose, A., Heuberger-Austin, C. F., & Gençer, E. (2021). Sector coupling via hydrogen to lower the cost of energy system decarbonization. Energy & Environmental Science, 14(9), 4635-4646.](https://pubs.rsc.org/en/content/articlehtml/2021/ee/d1ee00627d)
-- [Wang, J., Chen, L., Tan, Z., Du, E., Liu, N., Ma, J., ... & He, G. (2023). Inherent spatiotemporal uncertainty of renewable power in China. Nature Communications, 14(1), 5379.](https://www.nature.com/articles/s41467-023-40670-7)
-- [He, G., Mallapragada, D. S., Bose, A., Heuberger, C. F., & Gençer, E. (2021). Hydrogen supply chain planning with flexible transmission and storage scheduling. IEEE Transactions on Sustainable Energy, 12(3), 1730-1740.](https://ieeexplore.ieee.org/abstract/document/9371425)
+- [He, G., Chen, Q., Moutis, P., Kar, S., & Whitacre, J. F. (2018). An intertemporal decision framework for electrochemical energy storage management. Nature Energy, 3(5), 404-412.](https://www.nature.com/articles/s41560-018-0129-9)
 
-{% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" prev="电池网络优化" prev_link="/research/area_02_zh.html" %}
+面向实际数据的锂离子电池安全预警问题，搭建了基于动态变分自编码器的电池异常检测深度学习框架（dynamical autoencoder for anomaly detection, DyAD），并通过实际社会经济影响因子分析优化深度学习模型，实现高检出率、低误报率的电池异常检测，同时发布了包含347辆电动汽车的69万条充电片段的大规模实车电池数据集。
+
+- [Zhang, J., Wang, Y., Jiang, B., He, H., Huang, S., Wang, C., ... He, G. & Ouyang, M. (2022). Realistic fault detection of li-ion battery via dynamical deep learning. Nature Communications, 14(1), 5490.](https://www.nature.com/articles/s41467-023-41226-5)
+
+
+
+{% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" next="电池网络优化" next_link="/research/area_02_zh.html" %}
