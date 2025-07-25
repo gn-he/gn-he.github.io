@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="keywords" content="Guannan He,Research Group,Peking University,Optimization,Data Science,Control,Policy Analysis,Energy and Transportation Systems,Hydrogen,Battery,"/>
+    <meta name="description" content="As the penetration of renewable energy continues to increase and emerging energy storage technologies develop rapidly, the complexity and uncertainty of energy system operations have become increasingly prominent. Traditional physics-based analytical methods struggle to effectively handle high-dimensional, dynamic, and multi-scale energy management problems, especially when dealing with novel battery systems and complex network topologies. To overcome these limitations, we have conducted a series of research efforts in energy AI computing, aiming to deeply integrate artificial intelligence with domain knowledge in energy systems. Our goal is to build intelligent modeling and decision-making frameworks for real-world scenarios, forming a full-stack AI computing system that spans from battery management to energy network coordination." />
+    <meta name="referrer" content="same-origin"/>
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <meta name="theme-color" content="#e60012"/>
+    <title>Research: Energy & AI - Guannan He Research Group</title>
+    <!-- jquery -->
+    <script src="https://code.bdstatic.com/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
+    <!-- //jquery -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/assets/css/main.css?v=20230222" />
+    <script src="https://code.bdstatic.com/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- //bootstrap -->
+    <!-- other -->
+    <script src="/assets/js/main.js?v=20230222"></script>
+    <!-- //other -->
+  </head>
+  <body lang="en">
+    <header class="site-header navbar navbar-static-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.pku.edu.cn/"><img src="/assets/images/pku.png"></a>
+        </div>
+        <nav class="site-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="site-navbar-item site-navbar-item-homepage"><a class="nav-link" href="/"><span class="site-navbar-text">Homepage</span></a></li>
+            <li class="site-navbar-item site-navbar-item-research active"><a class="nav-link" href="/research/"><span class="site-navbar-text">Research</span></a></li>
+            <li class="site-navbar-item site-navbar-item-fundings"><a class="nav-link" href="/fundings/"><span class="site-navbar-text">Fundings</span></a></li>
+            <li class="site-navbar-item site-navbar-item-publication"><a class="nav-link" href="/publication/"><span class="site-navbar-text">Publication</span></a></li>
+            <li class="site-navbar-item site-navbar-item-activity"><a class="nav-link" href="/activity/"><span class="site-navbar-text">Activity</span></a></li>
+            <li class="site-navbar-item site-navbar-item-group"><a class="nav-link" href="/group/"><span class="site-navbar-text">Group</span></a></li>
+            <li class="site-navbar-item site-navbar-item-news"><a class="nav-link" href="/news/"><span class="site-navbar-text">News</span></a></li>
+            <li class="site-navbar-item site-navbar-item-search"><a class="nav-link" href="/search/"><span class="site-navbar-text">
+              <span class="icon icon-search" data-href="/search/"></span>
+              <span class="icon icon-language-zh" data-href="/research/area_04_zh.html"></span>
+            </span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="site-content container">
+      <div class="row">
+        <div class="site-content-main col-sm-12">
+          <div class="site-heading">
+            <h1><a href="https://www.nature.com/articles/s41467-023-41226-5">Research: Energy & AI</a></h1>
+          </div>
+          <article>
+            <p>As the penetration of renewable energy continues to increase and emerging energy storage technologies develop rapidly, the complexity and uncertainty of energy system operations have become increasingly prominent. Traditional physics-based analytical methods struggle to effectively handle high-dimensional, dynamic, and multi-scale energy management problems, especially when dealing with novel battery systems and complex network topologies. To overcome these limitations, we have conducted a series of research efforts in energy AI computing, aiming to deeply integrate artificial intelligence with domain knowledge in energy systems. Our goal is to build intelligent modeling and decision-making frameworks for real-world scenarios, forming a full-stack AI computing system that spans from battery management to energy network coordination.</p>
+            <p>In the area of battery system safety assurance and risk prediction, we have developed <strong>DyAD (Dynamical Autoencoder for Anomaly Detection)</strong>, a deep learning framework for battery anomaly detection based on a dynamical variational autoencoder. This model is tailored for dynamic systems and incorporates real-world social and economic factors into parameter configurations, thereby enhancing the interpretability and practical applicability of detection results. Tested on data from <strong>347 electric vehicles</strong> and over <strong>690,000 real charging records</strong>, the model not only outperforms existing deep learning models in anomaly detection performance but also significantly reduces losses and maintenance costs caused by battery failures. This provides a paradigm for ensuring lithium-ion battery safety operations and developing insurance risk assessment mechanisms.</p>
+            <p>To address the challenges of task diversity and data heterogeneity in battery management, we proposed the <strong>Flexible Masked Autoencoder (FMAE)</strong>, which adapts to variations in task input formats and structures. FMAE supports integrated modeling and generalized transfer across multiple battery management tasks, such as state estimation, remaining useful life (RUL) prediction, and anomaly detection. Validated on <strong>11 real-world battery system datasets</strong>, FMAE significantly outperforms task-specific models in multiple battery-related tasks, demonstrating strong generalization across tasks, datasets, and systems. This lays the technical foundation for building universal AI systems for battery management.</p>
+            <p>To further enhance data quality and model generalization, we introduced a synthetic data generation method guided by <strong>Inverse Discrete Fourier Transform (IDFT)</strong>. By integrating system physical properties with frequency-domain priors, this approach generates representative synthetic samples that substantially improve modeling accuracy and generalization. In lithium-ion battery capacity prediction tasks, our method achieved <strong>R² &gt; 0.96</strong> and extremely low MSE under both constant current–constant voltage (CC-CV) charging and real EV operating conditions, delivering up to <strong>45% improvement</strong> over traditional sampling strategies. This approach is not only applicable to battery systems but also provides a novel sampling and modeling paradigm for PDE-driven multiphysics systems such as materials and fluids.</p>
+            <p>To tackle the challenges posed by diverse and complex energy system types, we proposed a <strong>zero-shot unified modeling framework for energy systems</strong>, which enables generalized modeling and prediction across different system types without relying on task-specific information. This method introduces an adaptive attention mechanism, supporting heterogeneous energy system modeling at device, network, and system levels within a unified architecture. After being trained on various battery types and energy network topologies, the model can be directly transferred to entirely new energy systems, achieving zero-shot modeling. This unified modeling framework can be widely applied to energy system modeling and management at different scales, across diverse technologies and network types, without requiring prior type-specific knowledge. It is particularly well-suited for emerging energy technologies, distributed plug-and-play systems, and their coordinated operation within power grids. Ultimately, it holds great promise for supporting the next generation of smart grids, flexible energy systems, and low-carbon energy technology deployment.</p>
+            <p><img src="/assets/images/research/energy_ai_en.jpg" alt="" /></p>
+            <ul>
+              <li><a target="_blank" href="https://www.nature.com/articles/s41467-023-41226-5">Zhang, J., Wang, Y., Jiang, B., He, H., Huang, S., Wang, C., … &amp; Ouyang, M. (2023). Realistic fault detection of li-ion battery via dynamical deep learning. Nature Communications, 14(1), 5940.</a></li>
+              <li><a target="_blank" href="https://ieeexplore.ieee.org/document/10737665">He, G., Ding, Y., Wu, Z., Chen, X., Zhang, D., &amp; Song, J. (2024). Environment-adaptive online learning for portable energy storage based on porous electrode model. IEEE Transactions on Automation Science and Engineering.</a></li>
+            </ul>
+            <div class="nav-prevnext">
+              <div class="nav-prevnext-prev"><a class="text-primary" href="/research/area_03.html"><span class="icon icon-prev"></span>Coupled Electricity-Hydrogen-carbon Energy System Optimization</a></div>
+              <div class="nav-prevnext-parent"><a href="/research/">research</a></div>
+              <div class="nav-prevnext-next"></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer id="site-footer" class="site-footer">
+      <div class="container">
+        <p>Made by Guannan He</p>
+      </div>
+    </footer>
+    <!-- //footer -->
+    <!-- https://www.guannanhe.com/research/area_04.html -->
+  </body>
+</html>
