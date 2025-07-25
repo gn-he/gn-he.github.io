@@ -11,4 +11,4 @@ Besides spatiotemporal arbitrage, PESSs can also serve as physical platforms for
 
 ![]({{ "/assets/images/research/Schematic_of_PESS_en.jpg" | relative_url }})
 
-{% include prevnext.html parent="Research" parent_link="/research/" prev="Electrochemical Energy Storage Modelling and Management" prev_link="/research/area_03.html" next="Coupled Electricity-Hydrogen-carbon Energy System Optimization" next_link="/research/area_01.html" %}
+{% include prevnext.html parent="Research" parent_link="/research/" prev="Electrochemical Energy Storage Modelling and Management" prev_link="/research/area_01.html" next="Coupled Electricity-Hydrogen-carbon Energy System Optimization" next_link="/research/area_03.html" %}

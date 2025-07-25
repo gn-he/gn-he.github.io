@@ -21,6 +21,4 @@ heading_link: https://www.nature.com/articles/s41560-018-0129-9
 
 - [Zhang, J., Wang, Y., Jiang, B., He, H., Huang, S., Wang, C., ... He, G. & Ouyang, M. (2022). Realistic fault detection of li-ion battery via dynamical deep learning. Nature Communications, 14(1), 5490.](https://www.nature.com/articles/s41467-023-41226-5)
 
-
-
 {% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" next="电池网络优化" next_link="/research/area_02_zh.html" %}

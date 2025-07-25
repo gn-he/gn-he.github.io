@@ -11,4 +11,4 @@ PESS在能源和交通系统中有多种潜在的应用，可以跨越空间和�
 
 ![]({{ "/assets/images/research/Schematic_of_PESS_zh.jpg" | relative_url }})
 
-{% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" prev="电化学储能建模与优化" prev_link="/research/area_03_zh.html" next="电氢碳耦合供应链建模与优化" next_link="/research/area_01_zh.html" %}
+{% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" prev="电化学储能建模与优化" prev_link="/research/area_01_zh.html" next="电氢碳耦合供应链建模与优化" next_link="/research/area_03_zh.html" %}

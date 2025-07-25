@@ -21,4 +21,4 @@ DOLPHYN features a modular and transparent code structure developed in Julia + J
 - [He, G., Mallapragada, D. S., Bose, A., Heuberger-Austin, C. F., & Gençer, E. (2021). Sector coupling via hydrogen to lower the cost of energy system decarbonization. Energy & Environmental Science, 14(9), 4635-4646.](https://pubs.rsc.org/en/content/articlehtml/2021/ee/d1ee00627d)
 - [He, G., Mallapragada, D. S., Bose, A., Heuberger, C. F., & Gençer, E. (2021). Hydrogen supply chain planning with flexible transmission and storage scheduling. IEEE Transactions on Sustainable Energy, 12(3), 1730-1740.](https://ieeexplore.ieee.org/abstract/document/9371425)
 
-{% include prevnext.html parent="Research" parent_link="/research/" prev="Battery Network Optimization" prev_link="/research/area_02.html" %}
+{% include prevnext.html parent="Research" parent_link="/research/" prev="Battery Network Optimization" prev_link="/research/area_02.html" next="Energy & AI" next_link="/research/area_04.html" %}

@@ -22,4 +22,4 @@ DOLPHYN模型以Julia语言和JuMP包为基础进行开发，以结构化和模�
 - [Wang, J., Chen, L., Tan, Z., Du, E., Liu, N., Ma, J., ... & He, G. (2023). Inherent spatiotemporal uncertainty of renewable power in China. Nature Communications, 14(1), 5379.](https://www.nature.com/articles/s41467-023-40670-7)
 - [He, G., Mallapragada, D. S., Bose, A., Heuberger, C. F., & Gençer, E. (2021). Hydrogen supply chain planning with flexible transmission and storage scheduling. IEEE Transactions on Sustainable Energy, 12(3), 1730-1740.](https://ieeexplore.ieee.org/abstract/document/9371425)
 
-{% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" prev="电池网络优化" prev_link="/research/area_02_zh.html" %}
+{% include prevnext.html parent="研究方向" parent_link="/research/index_zh.html" prev="电池网络优化" prev_link="/research/area_02_zh.html" next="能源AI计算" next_link="/research/area_04_zh.html" %}
