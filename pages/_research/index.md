@@ -16,4 +16,4 @@ title: Research
 
 ## [4. Energy & AI]({{ "/research/area_04.html" | relative_url }})
 
-![]({{ "/assets/images/research/energy_ai_en.png" | relative_url }})
+![]({{ "/assets/images/research/energy_ai_en.jpg" | relative_url }})

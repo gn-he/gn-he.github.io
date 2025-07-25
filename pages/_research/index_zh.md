@@ -16,4 +16,4 @@ title: 研究方向
 
 ## [4. 能源AI计算]({{ "/research/area_04_zh.html" | relative_url }})
 
-![]({{ "/assets/images/research/energy_ai_en.png" | relative_url }})
+![]({{ "/assets/images/research/energy_ai_en.jpg" | relative_url }})
