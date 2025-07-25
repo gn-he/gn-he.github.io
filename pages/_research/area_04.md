@@ -1,7 +1,7 @@
 ---
 language: en
-title: "Research: Coupled Electricity-Hydrogen-carbon Energy System Optimization"
-heading_link: https://ieeexplore.ieee.org/abstract/document/9371425/
+title: "Research: Energy & AI"
+heading_link: https://www.nature.com/articles/s41467-023-41226-5
 ---
 
 ![]({{ "/assets/images/research/energy_ai_en.png" | relative_url }})
