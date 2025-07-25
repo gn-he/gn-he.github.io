@@ -13,7 +13,7 @@ heading_link: https://www.nature.com/articles/s41467-023-41226-5
 
 为应对能源系统类型多样、结构复杂等难题，我们提出了零样本（Zero-shot）能源系统统一建模框架，可在无任务专用信息的前提下对不同类型的系统进行泛化建模与预测。该方法引入自适应注意力机制，在统一结构中支持设备级、网络级、系统级的异构能源系统建模。通过在多种电池类型与能源网络拓扑上训练后，模型可直接迁移至全新能源系统，实现零样本建模。这一统一建模框架可广泛应用于不同尺度、各类技术或网络类型的能源系统建模与管理，无需依赖类型相关的先验信息，尤其适用于新型能源技术、分布式即插即用能源系统及其在电网中的协同调度，有望为下一代智能电网、灵活用能系统和低碳能源技术部署提供重要支撑。
 
-![]({{ "/assets/images/research/energy_ai_en.png" | relative_url }})
+![]({{ "/assets/images/research/energy_ai_en.jpg" | relative_url }})
 
 - [Zhang, J., Wang, Y., Jiang, B., He, H., Huang, S., Wang, C., ... & Ouyang, M. (2023). Realistic fault detection of li-ion battery via dynamical deep learning. Nature Communications, 14(1), 5940.](https://www.nature.com/articles/s41467-023-41226-5)
 - [He, G., Ding, Y., Wu, Z., Chen, X., Zhang, D., & Song, J. (2024). Environment-adaptive online learning for portable energy storage based on porous electrode model. IEEE Transactions on Automation Science and Engineering.](https://ieeexplore.ieee.org/document/10737665)
