@@ -13,3 +13,7 @@ title: Research
 ## [3. Coupled Electricity-Hydrogen-carbon Energy System Optimization]({{ "/research/area_03.html" | relative_url }})
 
 ![]({{ "/assets/images/research/carbon_supply_chain_en.png" | relative_url }})
+
+## [4. Energy & AI]({{ "/research/area_04.html" | relative_url }})
+
+![]({{ "/assets/images/research/energy_ai_en.png" | relative_url }})
