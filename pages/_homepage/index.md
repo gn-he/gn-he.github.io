@@ -28,10 +28,11 @@ Assistant Professor
 
 ## Research Area
 
-- Methods: Optimization, Data Science, Control, Policy Analysis
-- Applications: Energy and Transportation Systems, Hydrogen, Battery
+- Methods: Machine Learning, Optimization, Policy Analysis
+- Applications: Energy Systems, Hydrogen, Battery
 
 ## News
+- 2025.09.30: Our new work on integrating high-precision computation and reasoning. We propose a new architecure, Physically-isolated Experts Routing Network, with token-level routing among reasoning and computation experts, achieving higher accuracy than directly finetuning LLMs and significant improvements in response latency, token usage, and GPU energy consumption compared with mainstream multi-agent approaches. See <b><a href="https://arxiv.org/abs/2509.18169">PiERN: Token-Level Routing for Integrating High-Precision Computation and Reasoning</a></b>. 
 - 2024.06.06: I am honored to receive the <b><a href="https://ieee-pes.org/news/just-announced-2024-ieee-power-amp-energy-society-award-recipients/">2024 IEEE PES Prize Paper Award</a></b>, for my paper "Hydrogen Supply Chain Planning with Flexible Transmission and Storage Scheduling". This award recognizes the most outstanding papers published during the past three years in an IEEE PES Transaction. Two papers are selected each year in average for the award since 1966. <a href=" https://ieeexplore.ieee.org/abstract/document/9371425">Paper Link</a>
 - 2024.03.20: Our paper "<a href=" https://www.nature.com/articles/s41467-023-41226-5">Realistic fault detection of li-ion battery via dynamical deep learning</a>" has been selected as a featured article in the Nature Communications <b>Editor's highlights</b>.
 - 2024.03.06: I am honored to be recognized by IISE as part of its <b>ESD Outstanding Young Investigator Award </b> in 2024！This award recognizes IISE Energy Systems Division members under the age of 35 for their technical contribution to energy systems.

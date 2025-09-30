@@ -32,6 +32,7 @@ no_heading: true
 - 应用：能源与交通系统，电池，氢能
 
 ## 新闻
+- 2025.09.30: 为解决大语言模型在高精度科学计算任务中的固有局限性，我们提出了“物理隔离的专家路由网络”。基于训练可控的独立专家，该架构引入了token尺度的路由机制，实现了在一个思维链内语言推理和数值计算专家的切换与交互，颠覆了主流的多智能体架构，在保证强大推理能力和科学计算精度的同时，显著降低响应延迟、token使用量及GPU能耗方面均表现出巨大优势，为构建更精确、高效的科学智能系统提供了新的范式。Arxiv: <b><a href="https://arxiv.org/abs/2509.18169">PiERN: Token-Level Routing for Integrating High-Precision Computation and Reasoning</a></b>. 
 - 2024.06.06: 关于氢供应链灵活性建模与优化的论文获<b><a href="https://ieee-pes.org/news/just-announced-2024-ieee-power-amp-energy-society-award-recipients/">2024 IEEE PES Prize Paper Award</a></b>。该奖为IEEE电力能源分会的重要奖项之一，自1966年设立，奖励过去3年内在IEEE PES系列期刊发表的最具影响力的论文，每年仅授奖2篇，约0.1%。<a href=" https://ieeexplore.ieee.org/abstract/document/9371425">文章链接</a>
 - 2024.03.20: 论文"<a href=" https://www.nature.com/articles/s41467-023-41226-5">Realistic fault detection of li-ion battery via dynamical deep learning</a>"被选为Nature Communications <a href=" https://www.nature.com/collections/dmmhtcypsc"><b>Editors’ Highlights</b></a>!
 - 2024.03.06: 获<b>国际工业与系统工程师学会(IISE)能源系统杰出青年科学家奖</b>（国内首次）。 
