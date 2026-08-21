@@ -78,12 +78,14 @@ no_heading: true
     <tr>
       <td width="180" valign="top"><ul><li>2016-2019</li></ul></td>
       <td width="80" valign="top">博士</td>
-      <td valign="top">卡内基梅隆大学工程与公共政策系</td>
+      <td valign="top">导师：Soummya Kar，卡内基梅隆大学电气与计算机工程系</td>
+      <td valign="top">导师：Jay Whitacre，卡内基梅隆大学工程与公共政策系，材料科学与工程系</td>
     </tr>
     <tr>
       <td valign="top"><ul><li>2014-2016</li></ul></td>
       <td valign="top">硕士</td>
       <td valign="top">清华大学电机工程与应用电子技术系</td>
+      <td valign="top">导师：康重庆</td>
     </tr>
     <tr>
       <td valign="top"><ul><li>2010-2014</li></ul></td>
