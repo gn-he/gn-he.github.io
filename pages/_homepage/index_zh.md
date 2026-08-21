@@ -78,8 +78,9 @@ no_heading: true
     <tr>
       <td width="180" valign="top"><ul><li>2016-2019</li></ul></td>
       <td width="80" valign="top">博士</td>
-      <td valign="top">导师：Soummya Kar，卡内基梅隆大学电气与计算机工程系</td>
-      <td valign="top">导师：Jay Whitacre，卡内基梅隆大学工程与公共政策系，材料科学与工程系</td>
+      <td valign="top">卡内基梅隆大学</td>
+      <td valign="top">导师：Soummya Kar，电气与计算机工程系</td>
+      <td valign="top">导师：Jay Whitacre，工程与公共政策系，材料科学与工程系</td>
     </tr>
     <tr>
       <td valign="top"><ul><li>2014-2016</li></ul></td>
@@ -97,7 +98,7 @@ no_heading: true
 
 ## 招聘启事
 
-- 本课题组长期招聘博士后，从事数字低碳能源方向的工作
+- 本课题组长期招聘博士后，从事多模态大模型，数字低碳能源方向的工作
 - 详情请见[招聘启事]({{ "/news/2023-01-01-recruitment_zh.html" | relative_url }})
 
 ## 教授课程
