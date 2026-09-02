@@ -15,4 +15,4 @@ This research developed an intertemporal framework that incorporates incremental
 
 ![]({{ "/assets/images/research/decision_framework_en.png" | relative_url }})
 
-{% include prevnext.html parent="Research" parent_link="/research/" next="Battery Network Optimization" next_link="/research/area_02.html" %}
+{% include prevnext.html parent="Research" parent_link="/research/" prev="Energy & AI" prev_link="/research/area_04.html" next="Battery Network Optimization" next_link="/research/area_02.html" %}

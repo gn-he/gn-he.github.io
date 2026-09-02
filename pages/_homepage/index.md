@@ -26,7 +26,7 @@ Assistant Professor
 <div class="col-md-8" markdown="1">
 
 
-## Research Area
+## Research Area: Learning and Optimization for Complex Systems
 
 - Methods: Machine Learning, Optimization, Policy Analysis
 - Applications: Energy Systems, Hydrogen, Battery

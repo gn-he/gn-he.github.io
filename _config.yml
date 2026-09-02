@@ -31,6 +31,9 @@ collections:
   publication:
     output: true
     sort_by: date
+  awards:
+    output: true
+    sort_by: date
   activity:
     output: true
     sort_by: date
@@ -56,6 +59,8 @@ exclude:
   - maintenance/
   - node_modules/
   - vendor/
+  - CLAUDE.md
+  - README.md
   - Gemfile
   - Gemfile.lock
   - package.json

@@ -26,7 +26,7 @@ no_heading: true
 <div class="col-md-8" markdown="1">
 
 
-## 研究方向：数字低碳能源
+## 研究方向：复杂系统学习与优化
 
 - 方法：机器学习，优化
 - 应用：能源与交通系统，电化学，多模态大模型
@@ -99,7 +99,7 @@ no_heading: true
 ## 招聘启事
 
 - 本课题组长期招聘博士后，从事多模态大模型，数字低碳能源方向的工作
-- 详情请见[招聘启事]({{ "/news/2023-01-01-recruitment_zh.html" | relative_url }})
+<!-- - 详情请见[招聘启事]({{ "/news/2023-01-01-recruitment_zh.html" | relative_url }}) -->
 
 ## 教授课程
 
