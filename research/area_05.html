@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="keywords" content="Guannan He,Research Group,Peking University,Complex Systems,Optimization,Machine Learning,Large Language Models,Data Science,Control,Policy Analysis,Energy and Transportation Systems,Hydrogen,Battery,"/>
+    <meta name="description" content="The world evolves continuously, while humans understand it discretely. High-value tasks on complex systems — forecasting, diagnosis, dispatch, simulation — require both understanding discrete events, tasks and causal relations, and precisely computing the continuously evolving system behind them, described by numbers, signals, trajectories and equations. None of the three mainstream approaches can complete such continuous decision-making on its own:" />
+    <meta name="referrer" content="same-origin"/>
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <meta name="theme-color" content="#e60012"/>
+    <title>Research: Multimodal Large Models Integrating Computation and Reasoning - Guannan He Research Group</title>
+    <!-- jquery -->
+    <script src="https://code.bdstatic.com/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
+    <!-- //jquery -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/assets/css/main.css?v=20230222" />
+    <script src="https://code.bdstatic.com/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- //bootstrap -->
+    <!-- other -->
+    <script src="/assets/js/main.js?v=20230222"></script>
+    <!-- //other -->
+  </head>
+  <body lang="en">
+    <header class="site-header navbar navbar-static-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.pku.edu.cn/"><img src="/assets/images/pku.png"></a>
+        </div>
+        <nav class="site-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="site-navbar-item site-navbar-item-homepage"><a class="nav-link" href="/"><span class="site-navbar-text">Homepage</span></a></li>
+            <li class="site-navbar-item site-navbar-item-research active"><a class="nav-link" href="/research/"><span class="site-navbar-text">Research</span></a></li>
+            <li class="site-navbar-item site-navbar-item-fundings"><a class="nav-link" href="/fundings/"><span class="site-navbar-text">Fundings</span></a></li>
+            <li class="site-navbar-item site-navbar-item-publication"><a class="nav-link" href="/publication/"><span class="site-navbar-text">Publication</span></a></li>
+            <li class="site-navbar-item site-navbar-item-awards"><a class="nav-link" href="/awards/"><span class="site-navbar-text">Awards</span></a></li>
+            <li class="site-navbar-item site-navbar-item-activity"><a class="nav-link" href="/activity/"><span class="site-navbar-text">Activity</span></a></li>
+            <li class="site-navbar-item site-navbar-item-group"><a class="nav-link" href="/group/"><span class="site-navbar-text">Group</span></a></li>
+            <li class="site-navbar-item site-navbar-item-news"><a class="nav-link" href="/news/"><span class="site-navbar-text">News</span></a></li>
+            <li class="site-navbar-item site-navbar-item-search"><a class="nav-link" href="/search/"><span class="site-navbar-text">
+              <span class="icon icon-search" data-href="/search/"></span>
+              <span class="icon icon-language-zh" data-href="/research/area_05_zh.html"></span>
+            </span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="site-content container">
+      <div class="row">
+        <div class="site-content-main col-sm-12">
+          <div class="site-heading">
+            <h1><a href="https://arxiv.org/abs/2509.18169">Research: Multimodal Large Models Integrating Computation and Reasoning</a></h1>
+          </div>
+          <article>
+            <p>The world evolves continuously, while humans understand it discretely. High-value tasks on complex systems — forecasting, diagnosis, dispatch, simulation — require both understanding discrete events, tasks and causal relations, and precisely computing the continuously evolving system behind them, described by numbers, signals, trajectories and equations. None of the three mainstream approaches can complete such continuous decision-making on its own:</p>
+            <ul>
+              <li>Large language models (LLMs): tokenization discretizes every input, so the precision of continuous numerical values is lost by construction, and next-token prediction cannot natively perform high-precision computation;</li>
+              <li>Specialized time-series / mechanistic models: accurate, but they do not understand the task and cannot generalize to unseen scenarios or compose different computations;</li>
+              <li>Agent-style tool calling: the model <em>calls</em> computation rather than <em>possessing</em> it — the chain is long and slow, and errors compound across steps.</li>
+            </ul>
+            <p>We propose the Physically-isolated Experts Routing Network (PiERN), an architecture that unifies language reasoning and high-precision computation at the token level. PiERN consists of an LLM, a text-to-computation module, physically isolated expert models, and a token router. The LLM handles task understanding and reasoning; the text-to-computation module learns a <em>computation embedding</em> that maps open-ended event semantics into the continuous numerical space, i.e., how a sentence should change the computation; the experts carry pretrained numerical, physical or time-series computation; and the router decides, at every generated token, whether to continue language reasoning or to activate an expert, writing the result back into the same context.</p>
+            <p>Unlike joint training, the modules are trained separately and then frozen, which avoids gradient conflicts and the “seesaw effect” between language reasoning and specialized computation. Capabilities are not forcibly fused in the parameters but composed on demand in the reasoning chain. As a result, the model alternates between computation and reasoning within a single chain of thought, and multiple experts can be activated in series or in parallel, iterating until the solution converges.</p>
+            <p><img src="/assets/images/research/discrete_continuous.jpg" alt="" /></p>
+            <p>Experiments on representative computation–reasoning tasks including PDEBench and GCAM, as well as battery management tasks, show that PiERN achieves substantially higher accuracy than directly fine-tuned LLMs, while significantly reducing response latency, token usage and GPU energy consumption compared with mainstream multi-agent systems, reaching 100% expert-routing success on PDEBench, with no significant degradation on general benchmarks such as MMLU and GLUE.</p>
+            <p>Applications of this direction include energy system dispatch under extreme weather (coordinated decisions across PV output, electricity prices, storage and computing loads), battery R&amp;D and management (mechanistic simulation, lifetime prediction, fault warning and multitask pretraining), scientific computing and climate policy analysis (the GCAM integrated assessment model), as well as DeepResearch agents with long-horizon memory and multi-agent collaborative dispatch.</p>
+            <p><img src="/assets/images/research/token_routing.jpg" alt="" /></p>
+            <ul>
+              <li><a target="_blank" href="https://arxiv.org/abs/2509.18169">Xiao, H., Fan, J., Tong, X., Zhang, J., Lu, C., &amp; He, G. (2025). PiERN: Token-Level Routing for Integrating High-Precision Computation and Reasoning. arXiv:2509.18169.</a></li>
+              <li><a target="_blank" href="https://arxiv.org/abs/2509.01323">Lu, H., Chen, J., Zhang, J., He, G., Han, X., &amp; Ouyang, M. (2025). Multitask Battery Management with Flexible Pretraining. arXiv:2509.01323.</a></li>
+              <li><a target="_blank" href="https://doi.org/10.18653/v1/2026.acl-long.1170">Ai, Q., Fu, Z., Li, Z., Jiang, P., Wu, H., Song, J., &amp; He, G. (2026). Cognitive Scaffold: From Fluid Context to Crystallized Memory for Long-Horizon DeepResearch Agents. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL).</a></li>
+              <li><a target="_blank" href="https://doi.org/10.1109/PESIM67009.2026.11438861">Fan, J., Xiao, H., Tan, P., Zeng, J., Song, J., Xiang, R., Zheng, K., Song, J., &amp; He, G. (2026). Automated Power Dispatch Architecture Based on Multi-Agent Collaboration. 2026 IEEE PES International Meeting (PES IM), 1-5.</a></li>
+              <li><a target="_blank" href="https://doi.org/10.1016/j.patter.2025.101211">Liu, Y., Jia, M., Zhang, Y., Wang, J., He, G., Zhong, S., &amp; Dang, Z. (2025). RePower: An LLM-driven autonomous platform for power system data-guided research. Patterns, 6(4), 101211.</a></li>
+            </ul>
+            <div class="nav-prevnext">
+              <div class="nav-prevnext-prev"></div>
+              <div class="nav-prevnext-parent"><a href="/research/">Research</a></div>
+              <div class="nav-prevnext-next"><a class="text-primary" href="/research/area_04.html">Energy &amp; AI<span class="icon icon-next"></span></a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer id="site-footer" class="site-footer">
+      <div class="container">
+        <p>Made by Guannan He</p>
+      </div>
+    </footer>
+    <!-- //footer -->
+    <!-- https://www.guannanhe.com/research/area_05.html -->
+  </body>
+</html>
