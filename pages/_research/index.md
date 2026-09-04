@@ -5,7 +5,7 @@ title: Research
 
 ## [1. Multimodal Large Models Integrating Computation and Reasoning]({{ "/research/area_05.html" | relative_url }})
 
-![]({{ "/assets/images/research/图片 1.png" | relative_url }})
+![]({{ "/assets/images/research/piern_routing.png" | relative_url }})
 
 ## [2. Energy & AI]({{ "/research/area_04.html" | relative_url }})
 

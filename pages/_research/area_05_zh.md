@@ -5,7 +5,7 @@ heading_link: https://arxiv.org/abs/2509.18169
 ---
 世界连续演化，人类离散理解。复杂系统中的高价值任务——预测、诊断、调度、仿真——既要理解离散的事件、任务与因果关系，也要精确推演其背后以数值、信号、轨迹和方程刻画的连续系统。现有三类主流技术路线都难以独立完成这类连续决策：
 
-![]({{ "/assets/images/research/图片 2.jpg" | relative_url }})
+![]({{ "/assets/images/research/piern_overview.png" | relative_url }})
 
 - 大语言模型：分词（tokenization）将一切输入离散化，连续数值的精度天然丢失，难以通过下一词预测原生完成高精度计算；
 - 专用时序/机理模型：算得准，但不理解任务，难以泛化到未见场景或组合不同的计算；
@@ -19,7 +19,7 @@ heading_link: https://arxiv.org/abs/2509.18169
 
 这一方向的应用包括：极端天气下的能源系统调度（光伏出力、电价、储能与算力负荷的协同决策）、电池研发与管理（机理仿真、寿命预测、故障预警与多任务预训练）、科学计算与气候政策分析（GCAM 综合评估模型），以及具备长程记忆的 DeepResearch 智能体与多智能体协同调度。
 
-![]({{ "/assets/images/research/图片 1.jpg" | relative_url }})
+![]({{ "/assets/images/research/piern_routing.png" | relative_url }})
 
 - [Xiao, H., Fan, J., Tong, X., Zhang, J., Lu, C., & He, G. (2025). PiERN: Token-Level Routing for Integrating High-Precision Computation and Reasoning. arXiv:2509.18169.](https://arxiv.org/abs/2509.18169)
 - [Lu, H., Chen, J., Zhang, J., He, G., Han, X., & Ouyang, M. (2025). Multitask Battery Management with Flexible Pretraining. arXiv:2509.01323.](https://arxiv.org/abs/2509.01323)

@@ -6,7 +6,7 @@ title: 研究方向
 
 ## [1. 计算推理融合多模态大模型]({{ "/research/area_05_zh.html" | relative_url }})
 
-![]({{ "/assets/images/research/token_routing.jpg" | relative_url }})
+![]({{ "/assets/images/research/piern_routing.png" | relative_url }})
 
 ## [2. 能源AI计算]({{ "/research/area_04_zh.html" | relative_url }})
 
